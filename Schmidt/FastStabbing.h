@@ -107,6 +107,7 @@ namespace ogdf {
 		int n,bigN;
 		Array<ListPure<interval*> > eventlist; // sweepline
 		Array<interval*> stop;
+		Array<interval*> stop2;
 		interval dummy;
 
 		void preprocessing();
@@ -115,7 +116,7 @@ namespace ogdf {
 
 	public:
 		FastStabbing(Array<interval>& intervals, int numberIntervals, int numberDomain)
-		: a(intervals), eventlist(numberDomain+1), stop(0,numberDomain,NULL)  {
+		: a(intervals), eventlist(numberDomain+1), stop(0,numberDomain,NULL), stop2(0,numberDomain,NULL)  {
 			n = numberIntervals;
 			bigN = numberDomain;
 			dummy.parent = NULL;
@@ -123,36 +124,7 @@ namespace ogdf {
 			dummy.rightchild = NULL;
 			preprocessing();
 		};
-		void query(const int& q, std::vector<interval*>& output, const bool onlySearch, long& numComparisons);
-	};
-
-	// Chazelle stabbing
-	class ChazelleStabbing
-	{
-	private:
-		Array<interval>& a; // array of intervals [0,n-1]
-		int n,bigN;
-		double delta;
-		Array<ListPure<interval*> > eventlist; // sweepline
-		struct window {
-			int l;
-			ListPure<interval*> intervals;
-		};
-		SListPure<window> windows;
-		Array<SListIterator<window> > pWindow;
-
-		void preprocessing();
-		bool verify(std::vector<interval*> output, const int& q);
-
-	public:
-		ChazelleStabbing(Array<interval>& intervals, int numberIntervals, int numberDomain, double d)
-		: a(intervals), eventlist(numberDomain+1), pWindow(numberDomain+1)  {
-			delta = d; // delta>0 indicates that chazelle is used
-			n = numberIntervals;
-			bigN = numberDomain;
-			preprocessing();
-		};
-		void query(const int& q, std::vector<interval*>& output, const bool onlySearch, long& numComparisons);
+		void query(const int& ql, const int& qr, std::vector<interval*>& output, const bool onlySearch, long& numComparisons);
 	};
 
 }

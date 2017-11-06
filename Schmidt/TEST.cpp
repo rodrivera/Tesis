@@ -22,10 +22,13 @@ int main(){
 		for (int i = 0; i < n; ++i) {
 			do {
 				//a[i].l = randomNumber(1,n*2);
-				a[i].l = i+1;
 				//a[i].r = randomNumber(1,n*2);
-				a[i].r = i+7;
+
+				a[i].l = randomNumber(1,(n*2)-10);
+				a[i].r = a[i].l + randomNumber(1,10);
+
 			} while (a[i].l > a[i].r); // intervals [a,a] are allowed
+
 			a[i].parent = NULL;
 			a[i].leftsibling = NULL;
 			a[i].rightchild = NULL;
@@ -46,30 +49,44 @@ int main(){
 		}
 	} while (identical); // while identical intervals exist
 
-
-
+	cout << "Creating.." << endl;
+	FastStabbing stabbing(a,100,100*2);
+	cout << "Created" << endl;
+/*
 	for (int i = 0; i < 20; ++i){
 		queries[i] = 4*i + 2;
-	}
-	
-	FastStabbing stabbing(a,100,100*2);
+	}	
 
 	for (int j = 0; j < 20; ++j) {
 		long numComparisons = 0;
-		stabbing.query(queries[j],output,false,numComparisons);
+		stabbing.query(queries[j],queries[j],output,false,numComparisons);
 		long outputSize = (int)output.size();
 
-		cout << "*****" << endl;
+		cout << ">>> " << queries[j] << ":" << endl;
 
 		for (int i = 0; i < outputSize; ++i)
 		{
 			cout << " (" << output[i]->l << "," << output[i]->r << ")";
 		}
-
-		cout << endl << "*****" << endl;
+		cout << endl;
 	}
+*/
+	cout << "Queries:" << endl;
+	while(true){
+		int l, r;
+		cin >> l >> r;
 
+		long numComparisons = 0;
+		stabbing.query(l,r,output,false,numComparisons);
 
+		long outputSize = (int)output.size();
+		cout << ">>: N = " << outputSize << endl;
+		for (int i = 0; i < outputSize; ++i)
+		{
+			cout << " (" << output[i]->l << "," << output[i]->r << ")";
+		}
+		cout << endl;	
+	}
 
 	return 0;
 }
