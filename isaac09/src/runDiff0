@@ -1,0 +1,7 @@
+rm isaacResults.txt
+rm wtResults.txt
+rm ../../data/bboxes/examples/example1qRandom.txt
+../../util/queries_generator ../../data/bboxes/examples/example1qRandom.txt 1000000 0 0 8 8 -1 -1
+../../bb_nieves/bb_nieves ../../data/bboxes/examples/example1.txt IdX1Y1X2Y2 ./testsResult.txt ../../data/bboxes/examples/example1qRandom.txt IdX1Y1X2Y2 test > wtResults.txt
+./main ../../data/bboxes/examples/example1.txt IdX1Y1X2Y2 ./testsResult.txt ../../data/bboxes/examples/example1qRandom.txt IdX1Y1X2Y2 test COMPACT > isaacResults.txt
+diff ./wtResults.txt ./isaacResults.txt

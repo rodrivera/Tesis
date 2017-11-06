@@ -1,0 +1,2864 @@
+2d1
+< Used memory: 0.00 MB (0.00 + 0.00 + 0.00)
+321c320
+< Query 317: 0 elements: 
+---
+> Query 317: 1 elements: 3; 
+347c346
+< Query 343: 0 elements: 
+---
+> Query 343: 1 elements: 3; 
+355c354
+< Query 351: 0 elements: 
+---
+> Query 351: 1 elements: 3; 
+394c393
+< Query 390: 0 elements: 
+---
+> Query 390: 1 elements: 3; 
+402c401
+< Query 398: 0 elements: 
+---
+> Query 398: 1 elements: 3; 
+608c607
+< Query 604: 0 elements: 
+---
+> Query 604: 1 elements: 3; 
+850c849
+< Query 846: 0 elements: 
+---
+> Query 846: 1 elements: 3; 
+910c909
+< Query 906: 0 elements: 
+---
+> Query 906: 1 elements: 3; 
+1123c1122
+< Query 1119: 0 elements: 
+---
+> Query 1119: 1 elements: 3; 
+1144c1143
+< Query 1140: 0 elements: 
+---
+> Query 1140: 1 elements: 3; 
+1220c1219
+< Query 1216: 0 elements: 
+---
+> Query 1216: 1 elements: 3; 
+1261c1260
+< Query 1257: 0 elements: 
+---
+> Query 1257: 1 elements: 3; 
+1318c1317
+< Query 1314: 0 elements: 
+---
+> Query 1314: 1 elements: 3; 
+1763c1762
+< Query 1759: 0 elements: 
+---
+> Query 1759: 1 elements: 3; 
+2359c2358
+< Query 2355: 0 elements: 
+---
+> Query 2355: 1 elements: 3; 
+2370c2369
+< Query 2366: 0 elements: 
+---
+> Query 2366: 1 elements: 3; 
+2417c2416
+< Query 2413: 0 elements: 
+---
+> Query 2413: 1 elements: 3; 
+2424c2423
+< Query 2420: 0 elements: 
+---
+> Query 2420: 1 elements: 3; 
+2881c2880
+< Query 2877: 0 elements: 
+---
+> Query 2877: 1 elements: 3; 
+2917c2916
+< Query 2913: 0 elements: 
+---
+> Query 2913: 1 elements: 3; 
+2934c2933
+< Query 2930: 0 elements: 
+---
+> Query 2930: 1 elements: 3; 
+3287c3286
+< Query 3283: 0 elements: 
+---
+> Query 3283: 1 elements: 3; 
+3443c3442
+< Query 3439: 0 elements: 
+---
+> Query 3439: 1 elements: 3; 
+3756c3755
+< Query 3752: 0 elements: 
+---
+> Query 3752: 1 elements: 3; 
+3815c3814
+< Query 3811: 0 elements: 
+---
+> Query 3811: 1 elements: 3; 
+3825c3824
+< Query 3821: 0 elements: 
+---
+> Query 3821: 1 elements: 3; 
+3869c3868
+< Query 3865: 0 elements: 
+---
+> Query 3865: 1 elements: 3; 
+3924c3923
+< Query 3920: 0 elements: 
+---
+> Query 3920: 1 elements: 3; 
+3987c3986
+< Query 3983: 0 elements: 
+---
+> Query 3983: 1 elements: 3; 
+3989c3988
+< Query 3985: 0 elements: 
+---
+> Query 3985: 1 elements: 3; 
+4007c4006
+< Query 4003: 0 elements: 
+---
+> Query 4003: 1 elements: 3; 
+4038c4037
+< Query 4034: 0 elements: 
+---
+> Query 4034: 1 elements: 3; 
+4041c4040
+< Query 4037: 0 elements: 
+---
+> Query 4037: 1 elements: 3; 
+4209c4208
+< Query 4205: 0 elements: 
+---
+> Query 4205: 1 elements: 3; 
+4740c4739
+< Query 4736: 0 elements: 
+---
+> Query 4736: 1 elements: 3; 
+4750c4749
+< Query 4746: 0 elements: 
+---
+> Query 4746: 1 elements: 3; 
+4841c4840
+< Query 4837: 0 elements: 
+---
+> Query 4837: 1 elements: 3; 
+4992c4991
+< Query 4988: 0 elements: 
+---
+> Query 4988: 1 elements: 3; 
+5234c5233
+< Query 5230: 0 elements: 
+---
+> Query 5230: 1 elements: 3; 
+5256c5255
+< Query 5252: 0 elements: 
+---
+> Query 5252: 1 elements: 3; 
+5281c5280
+< Query 5277: 0 elements: 
+---
+> Query 5277: 1 elements: 3; 
+5286c5285
+< Query 5282: 0 elements: 
+---
+> Query 5282: 1 elements: 3; 
+5379c5378
+< Query 5375: 0 elements: 
+---
+> Query 5375: 1 elements: 3; 
+5453c5452
+< Query 5449: 0 elements: 
+---
+> Query 5449: 1 elements: 3; 
+5619c5618
+< Query 5615: 0 elements: 
+---
+> Query 5615: 1 elements: 3; 
+6209c6208
+< Query 6205: 0 elements: 
+---
+> Query 6205: 1 elements: 3; 
+6274c6273
+< Query 6270: 0 elements: 
+---
+> Query 6270: 1 elements: 3; 
+6721c6720
+< Query 6717: 0 elements: 
+---
+> Query 6717: 1 elements: 3; 
+6814c6813
+< Query 6810: 0 elements: 
+---
+> Query 6810: 1 elements: 3; 
+6893c6892
+< Query 6889: 0 elements: 
+---
+> Query 6889: 1 elements: 3; 
+6950c6949
+< Query 6946: 0 elements: 
+---
+> Query 6946: 1 elements: 3; 
+7077c7076
+< Query 7073: 0 elements: 
+---
+> Query 7073: 1 elements: 3; 
+7198c7197
+< Query 7194: 0 elements: 
+---
+> Query 7194: 1 elements: 3; 
+7430c7429
+< Query 7426: 0 elements: 
+---
+> Query 7426: 1 elements: 3; 
+7445c7444
+< Query 7441: 0 elements: 
+---
+> Query 7441: 1 elements: 3; 
+7608c7607
+< Query 7604: 0 elements: 
+---
+> Query 7604: 1 elements: 3; 
+7691c7690
+< Query 7687: 0 elements: 
+---
+> Query 7687: 1 elements: 3; 
+8060c8059
+< Query 8056: 0 elements: 
+---
+> Query 8056: 1 elements: 3; 
+8101c8100
+< Query 8097: 0 elements: 
+---
+> Query 8097: 1 elements: 3; 
+8182c8181
+< Query 8178: 0 elements: 
+---
+> Query 8178: 1 elements: 3; 
+8275c8274
+< Query 8271: 0 elements: 
+---
+> Query 8271: 1 elements: 3; 
+8415c8414
+< Query 8411: 0 elements: 
+---
+> Query 8411: 1 elements: 3; 
+8478c8477
+< Query 8474: 0 elements: 
+---
+> Query 8474: 1 elements: 3; 
+8522c8521
+< Query 8518: 0 elements: 
+---
+> Query 8518: 1 elements: 3; 
+8629c8628
+< Query 8625: 0 elements: 
+---
+> Query 8625: 1 elements: 3; 
+8755c8754
+< Query 8751: 0 elements: 
+---
+> Query 8751: 1 elements: 3; 
+8938c8937
+< Query 8934: 0 elements: 
+---
+> Query 8934: 1 elements: 3; 
+9142c9141
+< Query 9138: 0 elements: 
+---
+> Query 9138: 1 elements: 3; 
+9270c9269
+< Query 9266: 0 elements: 
+---
+> Query 9266: 1 elements: 3; 
+9293c9292
+< Query 9289: 0 elements: 
+---
+> Query 9289: 1 elements: 3; 
+9304c9303
+< Query 9300: 0 elements: 
+---
+> Query 9300: 1 elements: 3; 
+9412c9411
+< Query 9408: 0 elements: 
+---
+> Query 9408: 1 elements: 3; 
+9598c9597
+< Query 9594: 0 elements: 
+---
+> Query 9594: 1 elements: 3; 
+9687c9686
+< Query 9683: 0 elements: 
+---
+> Query 9683: 1 elements: 3; 
+9753c9752
+< Query 9749: 0 elements: 
+---
+> Query 9749: 1 elements: 3; 
+9784c9783
+< Query 9780: 0 elements: 
+---
+> Query 9780: 1 elements: 3; 
+9890c9889
+< Query 9886: 0 elements: 
+---
+> Query 9886: 1 elements: 3; 
+9897c9896
+< Query 9893: 0 elements: 
+---
+> Query 9893: 1 elements: 3; 
+9923c9922
+< Query 9919: 0 elements: 
+---
+> Query 9919: 1 elements: 3; 
+9950c9949
+< Query 9946: 0 elements: 
+---
+> Query 9946: 1 elements: 3; 
+10166c10165
+< Query 10162: 0 elements: 
+---
+> Query 10162: 1 elements: 3; 
+10198c10197
+< Query 10194: 0 elements: 
+---
+> Query 10194: 1 elements: 3; 
+10203c10202
+< Query 10199: 0 elements: 
+---
+> Query 10199: 1 elements: 3; 
+10341c10340
+< Query 10337: 0 elements: 
+---
+> Query 10337: 1 elements: 3; 
+10395c10394
+< Query 10391: 0 elements: 
+---
+> Query 10391: 1 elements: 3; 
+10477c10476
+< Query 10473: 0 elements: 
+---
+> Query 10473: 1 elements: 3; 
+10665c10664
+< Query 10661: 0 elements: 
+---
+> Query 10661: 1 elements: 3; 
+10752c10751
+< Query 10748: 0 elements: 
+---
+> Query 10748: 1 elements: 3; 
+10800c10799
+< Query 10796: 0 elements: 
+---
+> Query 10796: 1 elements: 3; 
+10832c10831
+< Query 10828: 0 elements: 
+---
+> Query 10828: 1 elements: 3; 
+11580c11579
+< Query 11576: 0 elements: 
+---
+> Query 11576: 1 elements: 3; 
+11650c11649
+< Query 11646: 0 elements: 
+---
+> Query 11646: 1 elements: 3; 
+11797c11796
+< Query 11793: 0 elements: 
+---
+> Query 11793: 1 elements: 3; 
+11840c11839
+< Query 11836: 0 elements: 
+---
+> Query 11836: 1 elements: 3; 
+11933c11932
+< Query 11929: 0 elements: 
+---
+> Query 11929: 1 elements: 3; 
+12227c12226
+< Query 12223: 0 elements: 
+---
+> Query 12223: 1 elements: 3; 
+12272c12271
+< Query 12268: 0 elements: 
+---
+> Query 12268: 1 elements: 3; 
+12366c12365
+< Query 12362: 0 elements: 
+---
+> Query 12362: 1 elements: 3; 
+13074c13073
+< Query 13070: 0 elements: 
+---
+> Query 13070: 1 elements: 3; 
+13242c13241
+< Query 13238: 0 elements: 
+---
+> Query 13238: 1 elements: 3; 
+13288c13287
+< Query 13284: 0 elements: 
+---
+> Query 13284: 1 elements: 3; 
+13329c13328
+< Query 13325: 0 elements: 
+---
+> Query 13325: 1 elements: 3; 
+13343c13342
+< Query 13339: 0 elements: 
+---
+> Query 13339: 1 elements: 3; 
+13667c13666
+< Query 13663: 0 elements: 
+---
+> Query 13663: 1 elements: 3; 
+13829c13828
+< Query 13825: 0 elements: 
+---
+> Query 13825: 1 elements: 3; 
+14114c14113
+< Query 14110: 0 elements: 
+---
+> Query 14110: 1 elements: 3; 
+14234c14233
+< Query 14230: 0 elements: 
+---
+> Query 14230: 1 elements: 3; 
+14240c14239
+< Query 14236: 0 elements: 
+---
+> Query 14236: 1 elements: 3; 
+14250c14249
+< Query 14246: 0 elements: 
+---
+> Query 14246: 1 elements: 3; 
+14261c14260
+< Query 14257: 0 elements: 
+---
+> Query 14257: 1 elements: 3; 
+14345c14344
+< Query 14341: 0 elements: 
+---
+> Query 14341: 1 elements: 3; 
+14373c14372
+< Query 14369: 0 elements: 
+---
+> Query 14369: 1 elements: 3; 
+14528c14527
+< Query 14524: 0 elements: 
+---
+> Query 14524: 1 elements: 3; 
+14960c14959
+< Query 14956: 0 elements: 
+---
+> Query 14956: 1 elements: 3; 
+15049c15048
+< Query 15045: 0 elements: 
+---
+> Query 15045: 1 elements: 3; 
+15279c15278
+< Query 15275: 0 elements: 
+---
+> Query 15275: 1 elements: 3; 
+15453c15452
+< Query 15449: 0 elements: 
+---
+> Query 15449: 1 elements: 3; 
+15626c15625
+< Query 15622: 0 elements: 
+---
+> Query 15622: 1 elements: 3; 
+15775c15774
+< Query 15771: 0 elements: 
+---
+> Query 15771: 1 elements: 3; 
+15816c15815
+< Query 15812: 0 elements: 
+---
+> Query 15812: 1 elements: 3; 
+15885c15884
+< Query 15881: 0 elements: 
+---
+> Query 15881: 1 elements: 3; 
+16210c16209
+< Query 16206: 0 elements: 
+---
+> Query 16206: 1 elements: 3; 
+16333c16332
+< Query 16329: 0 elements: 
+---
+> Query 16329: 1 elements: 3; 
+16516c16515
+< Query 16512: 0 elements: 
+---
+> Query 16512: 1 elements: 3; 
+16581c16580
+< Query 16577: 0 elements: 
+---
+> Query 16577: 1 elements: 3; 
+16888c16887
+< Query 16884: 0 elements: 
+---
+> Query 16884: 1 elements: 3; 
+17200c17199
+< Query 17196: 0 elements: 
+---
+> Query 17196: 1 elements: 3; 
+17281c17280
+< Query 17277: 0 elements: 
+---
+> Query 17277: 1 elements: 3; 
+17307c17306
+< Query 17303: 0 elements: 
+---
+> Query 17303: 1 elements: 3; 
+17346c17345
+< Query 17342: 0 elements: 
+---
+> Query 17342: 1 elements: 3; 
+17505c17504
+< Query 17501: 0 elements: 
+---
+> Query 17501: 1 elements: 3; 
+17544c17543
+< Query 17540: 0 elements: 
+---
+> Query 17540: 1 elements: 3; 
+17883c17882
+< Query 17879: 0 elements: 
+---
+> Query 17879: 1 elements: 3; 
+18187c18186
+< Query 18183: 0 elements: 
+---
+> Query 18183: 1 elements: 3; 
+18836c18835
+< Query 18832: 0 elements: 
+---
+> Query 18832: 1 elements: 3; 
+18909c18908
+< Query 18905: 0 elements: 
+---
+> Query 18905: 1 elements: 3; 
+18997c18996
+< Query 18993: 0 elements: 
+---
+> Query 18993: 1 elements: 3; 
+19018c19017
+< Query 19014: 0 elements: 
+---
+> Query 19014: 1 elements: 3; 
+19061c19060
+< Query 19057: 0 elements: 
+---
+> Query 19057: 1 elements: 3; 
+19194c19193
+< Query 19190: 0 elements: 
+---
+> Query 19190: 1 elements: 3; 
+19197c19196
+< Query 19193: 0 elements: 
+---
+> Query 19193: 1 elements: 3; 
+19335c19334
+< Query 19331: 0 elements: 
+---
+> Query 19331: 1 elements: 3; 
+19688c19687
+< Query 19684: 0 elements: 
+---
+> Query 19684: 1 elements: 3; 
+20265c20264
+< Query 20261: 0 elements: 
+---
+> Query 20261: 1 elements: 3; 
+20387c20386
+< Query 20383: 0 elements: 
+---
+> Query 20383: 1 elements: 3; 
+20952c20951
+< Query 20948: 0 elements: 
+---
+> Query 20948: 1 elements: 3; 
+21452c21451
+< Query 21448: 0 elements: 
+---
+> Query 21448: 1 elements: 3; 
+21464c21463
+< Query 21460: 0 elements: 
+---
+> Query 21460: 1 elements: 3; 
+21471c21470
+< Query 21467: 0 elements: 
+---
+> Query 21467: 1 elements: 3; 
+21626c21625
+< Query 21622: 0 elements: 
+---
+> Query 21622: 1 elements: 3; 
+21648c21647
+< Query 21644: 0 elements: 
+---
+> Query 21644: 1 elements: 3; 
+22236c22235
+< Query 22232: 0 elements: 
+---
+> Query 22232: 1 elements: 3; 
+22403c22402
+< Query 22399: 0 elements: 
+---
+> Query 22399: 1 elements: 3; 
+22550c22549
+< Query 22546: 0 elements: 
+---
+> Query 22546: 1 elements: 3; 
+22735c22734
+< Query 22731: 0 elements: 
+---
+> Query 22731: 1 elements: 3; 
+22801c22800
+< Query 22797: 0 elements: 
+---
+> Query 22797: 1 elements: 3; 
+22858c22857
+< Query 22854: 0 elements: 
+---
+> Query 22854: 1 elements: 3; 
+22889c22888
+< Query 22885: 0 elements: 
+---
+> Query 22885: 1 elements: 3; 
+23039c23038
+< Query 23035: 0 elements: 
+---
+> Query 23035: 1 elements: 3; 
+23129c23128
+< Query 23125: 0 elements: 
+---
+> Query 23125: 1 elements: 3; 
+23226c23225
+< Query 23222: 0 elements: 
+---
+> Query 23222: 1 elements: 3; 
+23316c23315
+< Query 23312: 0 elements: 
+---
+> Query 23312: 1 elements: 3; 
+23381c23380
+< Query 23377: 0 elements: 
+---
+> Query 23377: 1 elements: 3; 
+23504c23503
+< Query 23500: 0 elements: 
+---
+> Query 23500: 1 elements: 3; 
+23918c23917
+< Query 23914: 0 elements: 
+---
+> Query 23914: 1 elements: 3; 
+24069c24068
+< Query 24065: 0 elements: 
+---
+> Query 24065: 1 elements: 3; 
+24103c24102
+< Query 24099: 0 elements: 
+---
+> Query 24099: 1 elements: 3; 
+24164c24163
+< Query 24160: 0 elements: 
+---
+> Query 24160: 1 elements: 3; 
+24172c24171
+< Query 24168: 0 elements: 
+---
+> Query 24168: 1 elements: 3; 
+24205c24204
+< Query 24201: 0 elements: 
+---
+> Query 24201: 1 elements: 3; 
+24222c24221
+< Query 24218: 0 elements: 
+---
+> Query 24218: 1 elements: 3; 
+24390c24389
+< Query 24386: 0 elements: 
+---
+> Query 24386: 1 elements: 3; 
+24592c24591
+< Query 24588: 0 elements: 
+---
+> Query 24588: 1 elements: 3; 
+24632c24631
+< Query 24628: 0 elements: 
+---
+> Query 24628: 1 elements: 3; 
+25152c25151
+< Query 25148: 0 elements: 
+---
+> Query 25148: 1 elements: 3; 
+25229c25228
+< Query 25225: 0 elements: 
+---
+> Query 25225: 1 elements: 3; 
+25266c25265
+< Query 25262: 0 elements: 
+---
+> Query 25262: 1 elements: 3; 
+25351c25350
+< Query 25347: 0 elements: 
+---
+> Query 25347: 1 elements: 3; 
+25356c25355
+< Query 25352: 0 elements: 
+---
+> Query 25352: 1 elements: 3; 
+25537c25536
+< Query 25533: 0 elements: 
+---
+> Query 25533: 1 elements: 3; 
+25572c25571
+< Query 25568: 0 elements: 
+---
+> Query 25568: 1 elements: 3; 
+25807c25806
+< Query 25803: 0 elements: 
+---
+> Query 25803: 1 elements: 3; 
+25819c25818
+< Query 25815: 0 elements: 
+---
+> Query 25815: 1 elements: 3; 
+25869c25868
+< Query 25865: 0 elements: 
+---
+> Query 25865: 1 elements: 3; 
+25871c25870
+< Query 25867: 0 elements: 
+---
+> Query 25867: 1 elements: 3; 
+25883c25882
+< Query 25879: 0 elements: 
+---
+> Query 25879: 1 elements: 3; 
+25917c25916
+< Query 25913: 0 elements: 
+---
+> Query 25913: 1 elements: 3; 
+25929c25928
+< Query 25925: 0 elements: 
+---
+> Query 25925: 1 elements: 3; 
+26154c26153
+< Query 26150: 0 elements: 
+---
+> Query 26150: 1 elements: 3; 
+26240c26239
+< Query 26236: 0 elements: 
+---
+> Query 26236: 1 elements: 3; 
+26340c26339
+< Query 26336: 0 elements: 
+---
+> Query 26336: 1 elements: 3; 
+26400c26399
+< Query 26396: 0 elements: 
+---
+> Query 26396: 1 elements: 3; 
+26443c26442
+< Query 26439: 0 elements: 
+---
+> Query 26439: 1 elements: 3; 
+26709c26708
+< Query 26705: 0 elements: 
+---
+> Query 26705: 1 elements: 3; 
+26913c26912
+< Query 26909: 0 elements: 
+---
+> Query 26909: 1 elements: 3; 
+26915c26914
+< Query 26911: 0 elements: 
+---
+> Query 26911: 1 elements: 3; 
+26931c26930
+< Query 26927: 0 elements: 
+---
+> Query 26927: 1 elements: 3; 
+26976c26975
+< Query 26972: 0 elements: 
+---
+> Query 26972: 1 elements: 3; 
+26993c26992
+< Query 26989: 0 elements: 
+---
+> Query 26989: 1 elements: 3; 
+27356c27355
+< Query 27352: 0 elements: 
+---
+> Query 27352: 1 elements: 3; 
+27429c27428
+< Query 27425: 0 elements: 
+---
+> Query 27425: 1 elements: 3; 
+27555c27554
+< Query 27551: 0 elements: 
+---
+> Query 27551: 1 elements: 3; 
+27586c27585
+< Query 27582: 0 elements: 
+---
+> Query 27582: 1 elements: 3; 
+27633c27632
+< Query 27629: 0 elements: 
+---
+> Query 27629: 1 elements: 3; 
+27673c27672
+< Query 27669: 0 elements: 
+---
+> Query 27669: 1 elements: 3; 
+27787c27786
+< Query 27783: 0 elements: 
+---
+> Query 27783: 1 elements: 3; 
+27921c27920
+< Query 27917: 0 elements: 
+---
+> Query 27917: 1 elements: 3; 
+28101c28100
+< Query 28097: 0 elements: 
+---
+> Query 28097: 1 elements: 3; 
+28311c28310
+< Query 28307: 0 elements: 
+---
+> Query 28307: 1 elements: 3; 
+28639c28638
+< Query 28635: 0 elements: 
+---
+> Query 28635: 1 elements: 3; 
+28839c28838
+< Query 28835: 0 elements: 
+---
+> Query 28835: 1 elements: 3; 
+28953c28952
+< Query 28949: 0 elements: 
+---
+> Query 28949: 1 elements: 3; 
+29504c29503
+< Query 29500: 0 elements: 
+---
+> Query 29500: 1 elements: 3; 
+29725c29724
+< Query 29721: 0 elements: 
+---
+> Query 29721: 1 elements: 3; 
+30022c30021
+< Query 30018: 0 elements: 
+---
+> Query 30018: 1 elements: 3; 
+30094c30093
+< Query 30090: 0 elements: 
+---
+> Query 30090: 1 elements: 3; 
+30508c30507
+< Query 30504: 0 elements: 
+---
+> Query 30504: 1 elements: 3; 
+30719c30718
+< Query 30715: 0 elements: 
+---
+> Query 30715: 1 elements: 3; 
+30737c30736
+< Query 30733: 0 elements: 
+---
+> Query 30733: 1 elements: 3; 
+31106c31105
+< Query 31102: 0 elements: 
+---
+> Query 31102: 1 elements: 3; 
+31120c31119
+< Query 31116: 0 elements: 
+---
+> Query 31116: 1 elements: 3; 
+31169c31168
+< Query 31165: 0 elements: 
+---
+> Query 31165: 1 elements: 3; 
+31174c31173
+< Query 31170: 0 elements: 
+---
+> Query 31170: 1 elements: 3; 
+31195c31194
+< Query 31191: 0 elements: 
+---
+> Query 31191: 1 elements: 3; 
+31421c31420
+< Query 31417: 0 elements: 
+---
+> Query 31417: 1 elements: 3; 
+31722c31721
+< Query 31718: 0 elements: 
+---
+> Query 31718: 1 elements: 3; 
+31738c31737
+< Query 31734: 0 elements: 
+---
+> Query 31734: 1 elements: 3; 
+31836c31835
+< Query 31832: 0 elements: 
+---
+> Query 31832: 1 elements: 3; 
+31879c31878
+< Query 31875: 0 elements: 
+---
+> Query 31875: 1 elements: 3; 
+31972c31971
+< Query 31968: 0 elements: 
+---
+> Query 31968: 1 elements: 3; 
+32289c32288
+< Query 32285: 0 elements: 
+---
+> Query 32285: 1 elements: 3; 
+32340c32339
+< Query 32336: 0 elements: 
+---
+> Query 32336: 1 elements: 3; 
+32370c32369
+< Query 32366: 0 elements: 
+---
+> Query 32366: 1 elements: 3; 
+32439c32438
+< Query 32435: 0 elements: 
+---
+> Query 32435: 1 elements: 3; 
+32449c32448
+< Query 32445: 0 elements: 
+---
+> Query 32445: 1 elements: 3; 
+32556c32555
+< Query 32552: 0 elements: 
+---
+> Query 32552: 1 elements: 3; 
+32853c32852
+< Query 32849: 0 elements: 
+---
+> Query 32849: 1 elements: 3; 
+33025c33024
+< Query 33021: 0 elements: 
+---
+> Query 33021: 1 elements: 3; 
+33037c33036
+< Query 33033: 0 elements: 
+---
+> Query 33033: 1 elements: 3; 
+33169c33168
+< Query 33165: 0 elements: 
+---
+> Query 33165: 1 elements: 3; 
+33418c33417
+< Query 33414: 0 elements: 
+---
+> Query 33414: 1 elements: 3; 
+33587c33586
+< Query 33583: 0 elements: 
+---
+> Query 33583: 1 elements: 3; 
+33790c33789
+< Query 33786: 0 elements: 
+---
+> Query 33786: 1 elements: 3; 
+34105c34104
+< Query 34101: 0 elements: 
+---
+> Query 34101: 1 elements: 3; 
+34466c34465
+< Query 34462: 0 elements: 
+---
+> Query 34462: 1 elements: 3; 
+34548c34547
+< Query 34544: 0 elements: 
+---
+> Query 34544: 1 elements: 3; 
+34597c34596
+< Query 34593: 0 elements: 
+---
+> Query 34593: 1 elements: 3; 
+34603c34602
+< Query 34599: 0 elements: 
+---
+> Query 34599: 1 elements: 3; 
+34729c34728
+< Query 34725: 0 elements: 
+---
+> Query 34725: 1 elements: 3; 
+34763c34762
+< Query 34759: 0 elements: 
+---
+> Query 34759: 1 elements: 3; 
+34785c34784
+< Query 34781: 0 elements: 
+---
+> Query 34781: 1 elements: 3; 
+34800c34799
+< Query 34796: 0 elements: 
+---
+> Query 34796: 1 elements: 3; 
+34830c34829
+< Query 34826: 0 elements: 
+---
+> Query 34826: 1 elements: 3; 
+34876c34875
+< Query 34872: 0 elements: 
+---
+> Query 34872: 1 elements: 3; 
+34933c34932
+< Query 34929: 0 elements: 
+---
+> Query 34929: 1 elements: 3; 
+35253c35252
+< Query 35249: 0 elements: 
+---
+> Query 35249: 1 elements: 3; 
+35523c35522
+< Query 35519: 0 elements: 
+---
+> Query 35519: 1 elements: 3; 
+35770c35769
+< Query 35766: 0 elements: 
+---
+> Query 35766: 1 elements: 3; 
+35808c35807
+< Query 35804: 0 elements: 
+---
+> Query 35804: 1 elements: 3; 
+35985c35984
+< Query 35981: 0 elements: 
+---
+> Query 35981: 1 elements: 3; 
+36018c36017
+< Query 36014: 0 elements: 
+---
+> Query 36014: 1 elements: 3; 
+36134c36133
+< Query 36130: 0 elements: 
+---
+> Query 36130: 1 elements: 3; 
+36386c36385
+< Query 36382: 0 elements: 
+---
+> Query 36382: 1 elements: 3; 
+36442c36441
+< Query 36438: 0 elements: 
+---
+> Query 36438: 1 elements: 3; 
+36617c36616
+< Query 36613: 0 elements: 
+---
+> Query 36613: 1 elements: 3; 
+36829c36828
+< Query 36825: 0 elements: 
+---
+> Query 36825: 1 elements: 3; 
+36836c36835
+< Query 36832: 0 elements: 
+---
+> Query 36832: 1 elements: 3; 
+37177c37176
+< Query 37173: 0 elements: 
+---
+> Query 37173: 1 elements: 3; 
+37565c37564
+< Query 37561: 0 elements: 
+---
+> Query 37561: 1 elements: 3; 
+37601c37600
+< Query 37597: 0 elements: 
+---
+> Query 37597: 1 elements: 3; 
+37617c37616
+< Query 37613: 0 elements: 
+---
+> Query 37613: 1 elements: 3; 
+37728c37727
+< Query 37724: 0 elements: 
+---
+> Query 37724: 1 elements: 3; 
+37831c37830
+< Query 37827: 0 elements: 
+---
+> Query 37827: 1 elements: 3; 
+38295c38294
+< Query 38291: 0 elements: 
+---
+> Query 38291: 1 elements: 3; 
+38623c38622
+< Query 38619: 0 elements: 
+---
+> Query 38619: 1 elements: 3; 
+38767c38766
+< Query 38763: 0 elements: 
+---
+> Query 38763: 1 elements: 3; 
+38775c38774
+< Query 38771: 0 elements: 
+---
+> Query 38771: 1 elements: 3; 
+39541c39540
+< Query 39537: 0 elements: 
+---
+> Query 39537: 1 elements: 3; 
+39713c39712
+< Query 39709: 0 elements: 
+---
+> Query 39709: 1 elements: 3; 
+39737c39736
+< Query 39733: 0 elements: 
+---
+> Query 39733: 1 elements: 3; 
+39757c39756
+< Query 39753: 0 elements: 
+---
+> Query 39753: 1 elements: 3; 
+39893c39892
+< Query 39889: 0 elements: 
+---
+> Query 39889: 1 elements: 3; 
+40161c40160
+< Query 40157: 0 elements: 
+---
+> Query 40157: 1 elements: 3; 
+40370c40369
+< Query 40366: 0 elements: 
+---
+> Query 40366: 1 elements: 3; 
+40386c40385
+< Query 40382: 0 elements: 
+---
+> Query 40382: 1 elements: 3; 
+40459c40458
+< Query 40455: 0 elements: 
+---
+> Query 40455: 1 elements: 3; 
+40497c40496
+< Query 40493: 0 elements: 
+---
+> Query 40493: 1 elements: 3; 
+40614c40613
+< Query 40610: 0 elements: 
+---
+> Query 40610: 1 elements: 3; 
+40710c40709
+< Query 40706: 0 elements: 
+---
+> Query 40706: 1 elements: 3; 
+40814c40813
+< Query 40810: 0 elements: 
+---
+> Query 40810: 1 elements: 3; 
+40922c40921
+< Query 40918: 0 elements: 
+---
+> Query 40918: 1 elements: 3; 
+41016c41015
+< Query 41012: 0 elements: 
+---
+> Query 41012: 1 elements: 3; 
+41020c41019
+< Query 41016: 0 elements: 
+---
+> Query 41016: 1 elements: 3; 
+41029c41028
+< Query 41025: 0 elements: 
+---
+> Query 41025: 1 elements: 3; 
+41032c41031
+< Query 41028: 0 elements: 
+---
+> Query 41028: 1 elements: 3; 
+41054,41055c41053,41054
+< Query 41050: 0 elements: 
+< Query 41051: 0 elements: 
+---
+> Query 41050: 1 elements: 3; 
+> Query 41051: 1 elements: 3; 
+41154c41153
+< Query 41150: 0 elements: 
+---
+> Query 41150: 1 elements: 3; 
+41237c41236
+< Query 41233: 0 elements: 
+---
+> Query 41233: 1 elements: 3; 
+41459c41458
+< Query 41455: 0 elements: 
+---
+> Query 41455: 1 elements: 3; 
+41468c41467
+< Query 41464: 0 elements: 
+---
+> Query 41464: 1 elements: 3; 
+41738c41737
+< Query 41734: 0 elements: 
+---
+> Query 41734: 1 elements: 3; 
+41910c41909
+< Query 41906: 0 elements: 
+---
+> Query 41906: 1 elements: 3; 
+42217c42216
+< Query 42213: 0 elements: 
+---
+> Query 42213: 1 elements: 3; 
+42502c42501
+< Query 42498: 0 elements: 
+---
+> Query 42498: 1 elements: 3; 
+43144c43143
+< Query 43140: 0 elements: 
+---
+> Query 43140: 1 elements: 3; 
+43299c43298
+< Query 43295: 0 elements: 
+---
+> Query 43295: 1 elements: 3; 
+43427c43426
+< Query 43423: 0 elements: 
+---
+> Query 43423: 1 elements: 3; 
+43531c43530
+< Query 43527: 0 elements: 
+---
+> Query 43527: 1 elements: 3; 
+43671c43670
+< Query 43667: 0 elements: 
+---
+> Query 43667: 1 elements: 3; 
+43676c43675
+< Query 43672: 0 elements: 
+---
+> Query 43672: 1 elements: 3; 
+43685c43684
+< Query 43681: 0 elements: 
+---
+> Query 43681: 1 elements: 3; 
+43878c43877
+< Query 43874: 0 elements: 
+---
+> Query 43874: 1 elements: 3; 
+44047c44046
+< Query 44043: 0 elements: 
+---
+> Query 44043: 1 elements: 3; 
+44064c44063
+< Query 44060: 0 elements: 
+---
+> Query 44060: 1 elements: 3; 
+44115c44114
+< Query 44111: 0 elements: 
+---
+> Query 44111: 1 elements: 3; 
+44277c44276
+< Query 44273: 0 elements: 
+---
+> Query 44273: 1 elements: 3; 
+44800c44799
+< Query 44796: 0 elements: 
+---
+> Query 44796: 1 elements: 3; 
+44882c44881
+< Query 44878: 0 elements: 
+---
+> Query 44878: 1 elements: 3; 
+44925c44924
+< Query 44921: 0 elements: 
+---
+> Query 44921: 1 elements: 3; 
+44961c44960
+< Query 44957: 0 elements: 
+---
+> Query 44957: 1 elements: 3; 
+45383c45382
+< Query 45379: 0 elements: 
+---
+> Query 45379: 1 elements: 3; 
+45420c45419
+< Query 45416: 0 elements: 
+---
+> Query 45416: 1 elements: 3; 
+45498c45497
+< Query 45494: 0 elements: 
+---
+> Query 45494: 1 elements: 3; 
+45581c45580
+< Query 45577: 0 elements: 
+---
+> Query 45577: 1 elements: 3; 
+45647c45646
+< Query 45643: 0 elements: 
+---
+> Query 45643: 1 elements: 3; 
+45865c45864
+< Query 45861: 0 elements: 
+---
+> Query 45861: 1 elements: 3; 
+45968c45967
+< Query 45964: 0 elements: 
+---
+> Query 45964: 1 elements: 3; 
+46159c46158
+< Query 46155: 0 elements: 
+---
+> Query 46155: 1 elements: 3; 
+46265c46264
+< Query 46261: 0 elements: 
+---
+> Query 46261: 1 elements: 3; 
+46596c46595
+< Query 46592: 0 elements: 
+---
+> Query 46592: 1 elements: 3; 
+46772c46771
+< Query 46768: 0 elements: 
+---
+> Query 46768: 1 elements: 3; 
+46912c46911
+< Query 46908: 0 elements: 
+---
+> Query 46908: 1 elements: 3; 
+46963c46962
+< Query 46959: 0 elements: 
+---
+> Query 46959: 1 elements: 3; 
+46986c46985
+< Query 46982: 0 elements: 
+---
+> Query 46982: 1 elements: 3; 
+47059c47058
+< Query 47055: 0 elements: 
+---
+> Query 47055: 1 elements: 3; 
+47532c47531
+< Query 47528: 0 elements: 
+---
+> Query 47528: 1 elements: 3; 
+47597c47596
+< Query 47593: 0 elements: 
+---
+> Query 47593: 1 elements: 3; 
+47668c47667
+< Query 47664: 0 elements: 
+---
+> Query 47664: 1 elements: 3; 
+47944c47943
+< Query 47940: 0 elements: 
+---
+> Query 47940: 1 elements: 3; 
+48089c48088
+< Query 48085: 0 elements: 
+---
+> Query 48085: 1 elements: 3; 
+48265c48264
+< Query 48261: 0 elements: 
+---
+> Query 48261: 1 elements: 3; 
+48306c48305
+< Query 48302: 0 elements: 
+---
+> Query 48302: 1 elements: 3; 
+48531c48530
+< Query 48527: 0 elements: 
+---
+> Query 48527: 1 elements: 3; 
+48552c48551
+< Query 48548: 0 elements: 
+---
+> Query 48548: 1 elements: 3; 
+48603c48602
+< Query 48599: 0 elements: 
+---
+> Query 48599: 1 elements: 3; 
+48765c48764
+< Query 48761: 0 elements: 
+---
+> Query 48761: 1 elements: 3; 
+48952c48951
+< Query 48948: 0 elements: 
+---
+> Query 48948: 1 elements: 3; 
+49479c49478
+< Query 49475: 0 elements: 
+---
+> Query 49475: 1 elements: 3; 
+49540c49539
+< Query 49536: 0 elements: 
+---
+> Query 49536: 1 elements: 3; 
+49609c49608
+< Query 49605: 0 elements: 
+---
+> Query 49605: 1 elements: 3; 
+49646c49645
+< Query 49642: 0 elements: 
+---
+> Query 49642: 1 elements: 3; 
+49826c49825
+< Query 49822: 0 elements: 
+---
+> Query 49822: 1 elements: 3; 
+49949c49948
+< Query 49945: 0 elements: 
+---
+> Query 49945: 1 elements: 3; 
+50016c50015
+< Query 50012: 0 elements: 
+---
+> Query 50012: 1 elements: 3; 
+50093c50092
+< Query 50089: 0 elements: 
+---
+> Query 50089: 1 elements: 3; 
+50098c50097
+< Query 50094: 0 elements: 
+---
+> Query 50094: 1 elements: 3; 
+50155c50154
+< Query 50151: 0 elements: 
+---
+> Query 50151: 1 elements: 3; 
+50161c50160
+< Query 50157: 0 elements: 
+---
+> Query 50157: 1 elements: 3; 
+50298c50297
+< Query 50294: 0 elements: 
+---
+> Query 50294: 1 elements: 3; 
+50387c50386
+< Query 50383: 0 elements: 
+---
+> Query 50383: 1 elements: 3; 
+50428c50427
+< Query 50424: 0 elements: 
+---
+> Query 50424: 1 elements: 3; 
+50596c50595
+< Query 50592: 0 elements: 
+---
+> Query 50592: 1 elements: 3; 
+50741c50740
+< Query 50737: 0 elements: 
+---
+> Query 50737: 1 elements: 3; 
+50917c50916
+< Query 50913: 0 elements: 
+---
+> Query 50913: 1 elements: 3; 
+50948c50947
+< Query 50944: 0 elements: 
+---
+> Query 50944: 1 elements: 3; 
+51062c51061
+< Query 51058: 0 elements: 
+---
+> Query 51058: 1 elements: 3; 
+51186c51185
+< Query 51182: 0 elements: 
+---
+> Query 51182: 1 elements: 3; 
+51188c51187
+< Query 51184: 0 elements: 
+---
+> Query 51184: 1 elements: 3; 
+51221c51220
+< Query 51217: 0 elements: 
+---
+> Query 51217: 1 elements: 3; 
+51556c51555
+< Query 51552: 0 elements: 
+---
+> Query 51552: 1 elements: 3; 
+51904c51903
+< Query 51900: 0 elements: 
+---
+> Query 51900: 1 elements: 3; 
+52227c52226
+< Query 52223: 0 elements: 
+---
+> Query 52223: 1 elements: 3; 
+52296c52295
+< Query 52292: 0 elements: 
+---
+> Query 52292: 1 elements: 3; 
+52609c52608
+< Query 52605: 0 elements: 
+---
+> Query 52605: 1 elements: 3; 
+52634c52633
+< Query 52630: 0 elements: 
+---
+> Query 52630: 1 elements: 3; 
+52647c52646
+< Query 52643: 0 elements: 
+---
+> Query 52643: 1 elements: 3; 
+52935c52934
+< Query 52931: 0 elements: 
+---
+> Query 52931: 1 elements: 3; 
+52993c52992
+< Query 52989: 0 elements: 
+---
+> Query 52989: 1 elements: 3; 
+53092c53091
+< Query 53088: 0 elements: 
+---
+> Query 53088: 1 elements: 3; 
+53099c53098
+< Query 53095: 0 elements: 
+---
+> Query 53095: 1 elements: 3; 
+53140c53139
+< Query 53136: 0 elements: 
+---
+> Query 53136: 1 elements: 3; 
+53154c53153
+< Query 53150: 0 elements: 
+---
+> Query 53150: 1 elements: 3; 
+53210c53209
+< Query 53206: 0 elements: 
+---
+> Query 53206: 1 elements: 3; 
+53352c53351
+< Query 53348: 0 elements: 
+---
+> Query 53348: 1 elements: 3; 
+53371c53370
+< Query 53367: 0 elements: 
+---
+> Query 53367: 1 elements: 3; 
+53388c53387
+< Query 53384: 0 elements: 
+---
+> Query 53384: 1 elements: 3; 
+53471c53470
+< Query 53467: 0 elements: 
+---
+> Query 53467: 1 elements: 3; 
+53813c53812
+< Query 53809: 0 elements: 
+---
+> Query 53809: 1 elements: 3; 
+53954c53953
+< Query 53950: 0 elements: 
+---
+> Query 53950: 1 elements: 3; 
+54087c54086
+< Query 54083: 0 elements: 
+---
+> Query 54083: 1 elements: 3; 
+54114c54113
+< Query 54110: 0 elements: 
+---
+> Query 54110: 1 elements: 3; 
+54219c54218
+< Query 54215: 0 elements: 
+---
+> Query 54215: 1 elements: 3; 
+54627c54626
+< Query 54623: 0 elements: 
+---
+> Query 54623: 1 elements: 3; 
+54633c54632
+< Query 54629: 0 elements: 
+---
+> Query 54629: 1 elements: 3; 
+54706c54705
+< Query 54702: 0 elements: 
+---
+> Query 54702: 1 elements: 3; 
+54944c54943
+< Query 54940: 0 elements: 
+---
+> Query 54940: 1 elements: 3; 
+55512c55511
+< Query 55508: 0 elements: 
+---
+> Query 55508: 1 elements: 3; 
+55526c55525
+< Query 55522: 0 elements: 
+---
+> Query 55522: 1 elements: 3; 
+55631c55630
+< Query 55627: 0 elements: 
+---
+> Query 55627: 1 elements: 3; 
+55646c55645
+< Query 55642: 0 elements: 
+---
+> Query 55642: 1 elements: 3; 
+55649c55648
+< Query 55645: 0 elements: 
+---
+> Query 55645: 1 elements: 3; 
+55840c55839
+< Query 55836: 0 elements: 
+---
+> Query 55836: 1 elements: 3; 
+55970c55969
+< Query 55966: 0 elements: 
+---
+> Query 55966: 1 elements: 3; 
+56100c56099
+< Query 56096: 0 elements: 
+---
+> Query 56096: 1 elements: 3; 
+56152c56151
+< Query 56148: 0 elements: 
+---
+> Query 56148: 1 elements: 3; 
+56291c56290
+< Query 56287: 0 elements: 
+---
+> Query 56287: 1 elements: 3; 
+56484c56483
+< Query 56480: 0 elements: 
+---
+> Query 56480: 1 elements: 3; 
+56501c56500
+< Query 56497: 0 elements: 
+---
+> Query 56497: 1 elements: 3; 
+56662c56661
+< Query 56658: 0 elements: 
+---
+> Query 56658: 1 elements: 3; 
+56831c56830
+< Query 56827: 0 elements: 
+---
+> Query 56827: 1 elements: 3; 
+56937c56936
+< Query 56933: 0 elements: 
+---
+> Query 56933: 1 elements: 3; 
+57053c57052
+< Query 57049: 0 elements: 
+---
+> Query 57049: 1 elements: 3; 
+57107c57106
+< Query 57103: 0 elements: 
+---
+> Query 57103: 1 elements: 3; 
+57366c57365
+< Query 57362: 0 elements: 
+---
+> Query 57362: 1 elements: 3; 
+57617c57616
+< Query 57613: 0 elements: 
+---
+> Query 57613: 1 elements: 3; 
+57738c57737
+< Query 57734: 0 elements: 
+---
+> Query 57734: 1 elements: 3; 
+57810c57809
+< Query 57806: 0 elements: 
+---
+> Query 57806: 1 elements: 3; 
+57812c57811
+< Query 57808: 0 elements: 
+---
+> Query 57808: 1 elements: 3; 
+57845c57844
+< Query 57841: 0 elements: 
+---
+> Query 57841: 1 elements: 3; 
+57993c57992
+< Query 57989: 0 elements: 
+---
+> Query 57989: 1 elements: 3; 
+58070c58069
+< Query 58066: 0 elements: 
+---
+> Query 58066: 1 elements: 3; 
+58167c58166
+< Query 58163: 0 elements: 
+---
+> Query 58163: 1 elements: 3; 
+58218c58217
+< Query 58214: 0 elements: 
+---
+> Query 58214: 1 elements: 3; 
+58477c58476
+< Query 58473: 0 elements: 
+---
+> Query 58473: 1 elements: 3; 
+58523c58522
+< Query 58519: 0 elements: 
+---
+> Query 58519: 1 elements: 3; 
+58552c58551
+< Query 58548: 0 elements: 
+---
+> Query 58548: 1 elements: 3; 
+58593c58592
+< Query 58589: 0 elements: 
+---
+> Query 58589: 1 elements: 3; 
+58744c58743
+< Query 58740: 0 elements: 
+---
+> Query 58740: 1 elements: 3; 
+58966c58965
+< Query 58962: 0 elements: 
+---
+> Query 58962: 1 elements: 3; 
+59031c59030
+< Query 59027: 0 elements: 
+---
+> Query 59027: 1 elements: 3; 
+59056c59055
+< Query 59052: 0 elements: 
+---
+> Query 59052: 1 elements: 3; 
+59058c59057
+< Query 59054: 0 elements: 
+---
+> Query 59054: 1 elements: 3; 
+59546c59545
+< Query 59542: 0 elements: 
+---
+> Query 59542: 1 elements: 3; 
+59567c59566
+< Query 59563: 0 elements: 
+---
+> Query 59563: 1 elements: 3; 
+59758c59757
+< Query 59754: 0 elements: 
+---
+> Query 59754: 1 elements: 3; 
+59827c59826
+< Query 59823: 0 elements: 
+---
+> Query 59823: 1 elements: 3; 
+59946c59945
+< Query 59942: 0 elements: 
+---
+> Query 59942: 1 elements: 3; 
+60424c60423
+< Query 60420: 0 elements: 
+---
+> Query 60420: 1 elements: 3; 
+60524c60523
+< Query 60520: 0 elements: 
+---
+> Query 60520: 1 elements: 3; 
+60596c60595
+< Query 60592: 0 elements: 
+---
+> Query 60592: 1 elements: 3; 
+60632c60631
+< Query 60628: 0 elements: 
+---
+> Query 60628: 1 elements: 3; 
+60680c60679
+< Query 60676: 0 elements: 
+---
+> Query 60676: 1 elements: 3; 
+60887c60886
+< Query 60883: 0 elements: 
+---
+> Query 60883: 1 elements: 3; 
+61016c61015
+< Query 61012: 0 elements: 
+---
+> Query 61012: 1 elements: 3; 
+61084c61083
+< Query 61080: 0 elements: 
+---
+> Query 61080: 1 elements: 3; 
+61348c61347
+< Query 61344: 0 elements: 
+---
+> Query 61344: 1 elements: 3; 
+61532c61531
+< Query 61528: 0 elements: 
+---
+> Query 61528: 1 elements: 3; 
+61561c61560
+< Query 61557: 0 elements: 
+---
+> Query 61557: 1 elements: 3; 
+61601c61600
+< Query 61597: 0 elements: 
+---
+> Query 61597: 1 elements: 3; 
+61656c61655
+< Query 61652: 0 elements: 
+---
+> Query 61652: 1 elements: 3; 
+61690c61689
+< Query 61686: 0 elements: 
+---
+> Query 61686: 1 elements: 3; 
+61784c61783
+< Query 61780: 0 elements: 
+---
+> Query 61780: 1 elements: 3; 
+61833c61832
+< Query 61829: 0 elements: 
+---
+> Query 61829: 1 elements: 3; 
+61853c61852
+< Query 61849: 0 elements: 
+---
+> Query 61849: 1 elements: 3; 
+62153c62152
+< Query 62149: 0 elements: 
+---
+> Query 62149: 1 elements: 3; 
+62338c62337
+< Query 62334: 0 elements: 
+---
+> Query 62334: 1 elements: 3; 
+62416c62415
+< Query 62412: 0 elements: 
+---
+> Query 62412: 1 elements: 3; 
+62496c62495
+< Query 62492: 0 elements: 
+---
+> Query 62492: 1 elements: 3; 
+62511c62510
+< Query 62507: 0 elements: 
+---
+> Query 62507: 1 elements: 3; 
+62754c62753
+< Query 62750: 0 elements: 
+---
+> Query 62750: 1 elements: 3; 
+63204c63203
+< Query 63200: 0 elements: 
+---
+> Query 63200: 1 elements: 3; 
+63252c63251
+< Query 63248: 0 elements: 
+---
+> Query 63248: 1 elements: 3; 
+63530c63529
+< Query 63526: 0 elements: 
+---
+> Query 63526: 1 elements: 3; 
+63796c63795
+< Query 63792: 0 elements: 
+---
+> Query 63792: 1 elements: 3; 
+63991c63990
+< Query 63987: 0 elements: 
+---
+> Query 63987: 1 elements: 3; 
+64240c64239
+< Query 64236: 0 elements: 
+---
+> Query 64236: 1 elements: 3; 
+64578c64577
+< Query 64574: 0 elements: 
+---
+> Query 64574: 1 elements: 3; 
+64590c64589
+< Query 64586: 0 elements: 
+---
+> Query 64586: 1 elements: 3; 
+64679c64678
+< Query 64675: 0 elements: 
+---
+> Query 64675: 1 elements: 3; 
+64797c64796
+< Query 64793: 0 elements: 
+---
+> Query 64793: 1 elements: 3; 
+64803c64802
+< Query 64799: 0 elements: 
+---
+> Query 64799: 1 elements: 3; 
+64806c64805
+< Query 64802: 0 elements: 
+---
+> Query 64802: 1 elements: 3; 
+65192c65191
+< Query 65188: 0 elements: 
+---
+> Query 65188: 1 elements: 3; 
+65365c65364
+< Query 65361: 0 elements: 
+---
+> Query 65361: 1 elements: 3; 
+65460c65459
+< Query 65456: 0 elements: 
+---
+> Query 65456: 1 elements: 3; 
+65654c65653
+< Query 65650: 0 elements: 
+---
+> Query 65650: 1 elements: 3; 
+65710c65709
+< Query 65706: 0 elements: 
+---
+> Query 65706: 1 elements: 3; 
+65773c65772
+< Query 65769: 0 elements: 
+---
+> Query 65769: 1 elements: 3; 
+66179c66178
+< Query 66175: 0 elements: 
+---
+> Query 66175: 1 elements: 3; 
+66331c66330
+< Query 66327: 0 elements: 
+---
+> Query 66327: 1 elements: 3; 
+66379c66378
+< Query 66375: 0 elements: 
+---
+> Query 66375: 1 elements: 3; 
+66547c66546
+< Query 66543: 0 elements: 
+---
+> Query 66543: 1 elements: 3; 
+66560c66559
+< Query 66556: 0 elements: 
+---
+> Query 66556: 1 elements: 3; 
+66587c66586
+< Query 66583: 0 elements: 
+---
+> Query 66583: 1 elements: 3; 
+67333c67332
+< Query 67329: 0 elements: 
+---
+> Query 67329: 1 elements: 3; 
+67420c67419
+< Query 67416: 0 elements: 
+---
+> Query 67416: 1 elements: 3; 
+67475c67474
+< Query 67471: 0 elements: 
+---
+> Query 67471: 1 elements: 3; 
+67547c67546
+< Query 67543: 0 elements: 
+---
+> Query 67543: 1 elements: 3; 
+67589c67588
+< Query 67585: 0 elements: 
+---
+> Query 67585: 1 elements: 3; 
+67797c67796
+< Query 67793: 0 elements: 
+---
+> Query 67793: 1 elements: 3; 
+67874c67873
+< Query 67870: 0 elements: 
+---
+> Query 67870: 1 elements: 3; 
+68024c68023
+< Query 68020: 0 elements: 
+---
+> Query 68020: 1 elements: 3; 
+68067c68066
+< Query 68063: 0 elements: 
+---
+> Query 68063: 1 elements: 3; 
+68137c68136
+< Query 68133: 0 elements: 
+---
+> Query 68133: 1 elements: 3; 
+68167c68166
+< Query 68163: 0 elements: 
+---
+> Query 68163: 1 elements: 3; 
+68212c68211
+< Query 68208: 0 elements: 
+---
+> Query 68208: 1 elements: 3; 
+68257c68256
+< Query 68253: 0 elements: 
+---
+> Query 68253: 1 elements: 3; 
+68480c68479
+< Query 68476: 0 elements: 
+---
+> Query 68476: 1 elements: 3; 
+68482c68481
+< Query 68478: 0 elements: 
+---
+> Query 68478: 1 elements: 3; 
+68572c68571
+< Query 68568: 0 elements: 
+---
+> Query 68568: 1 elements: 3; 
+68590c68589
+< Query 68586: 0 elements: 
+---
+> Query 68586: 1 elements: 3; 
+68770c68769
+< Query 68766: 0 elements: 
+---
+> Query 68766: 1 elements: 3; 
+68824c68823
+< Query 68820: 0 elements: 
+---
+> Query 68820: 1 elements: 3; 
+68952c68951
+< Query 68948: 0 elements: 
+---
+> Query 68948: 1 elements: 3; 
+69120c69119
+< Query 69116: 0 elements: 
+---
+> Query 69116: 1 elements: 3; 
+69143c69142
+< Query 69139: 0 elements: 
+---
+> Query 69139: 1 elements: 3; 
+69162c69161
+< Query 69158: 0 elements: 
+---
+> Query 69158: 1 elements: 3; 
+69186c69185
+< Query 69182: 0 elements: 
+---
+> Query 69182: 1 elements: 3; 
+69466c69465
+< Query 69462: 0 elements: 
+---
+> Query 69462: 1 elements: 3; 
+69578c69577
+< Query 69574: 0 elements: 
+---
+> Query 69574: 1 elements: 3; 
+69582c69581
+< Query 69578: 0 elements: 
+---
+> Query 69578: 1 elements: 3; 
+69698c69697
+< Query 69694: 0 elements: 
+---
+> Query 69694: 1 elements: 3; 
+69853c69852
+< Query 69849: 0 elements: 
+---
+> Query 69849: 1 elements: 3; 
+70008c70007
+< Query 70004: 0 elements: 
+---
+> Query 70004: 1 elements: 3; 
+70035c70034
+< Query 70031: 0 elements: 
+---
+> Query 70031: 1 elements: 3; 
+70133c70132
+< Query 70129: 0 elements: 
+---
+> Query 70129: 1 elements: 3; 
+70147c70146
+< Query 70143: 0 elements: 
+---
+> Query 70143: 1 elements: 3; 
+70379c70378
+< Query 70375: 0 elements: 
+---
+> Query 70375: 1 elements: 3; 
+70433c70432
+< Query 70429: 0 elements: 
+---
+> Query 70429: 1 elements: 3; 
+70811c70810
+< Query 70807: 0 elements: 
+---
+> Query 70807: 1 elements: 3; 
+70857c70856
+< Query 70853: 0 elements: 
+---
+> Query 70853: 1 elements: 3; 
+70867c70866
+< Query 70863: 0 elements: 
+---
+> Query 70863: 1 elements: 3; 
+71031c71030
+< Query 71027: 0 elements: 
+---
+> Query 71027: 1 elements: 3; 
+71110c71109
+< Query 71106: 0 elements: 
+---
+> Query 71106: 1 elements: 3; 
+71226c71225
+< Query 71222: 0 elements: 
+---
+> Query 71222: 1 elements: 3; 
+71238c71237
+< Query 71234: 0 elements: 
+---
+> Query 71234: 1 elements: 3; 
+71412c71411
+< Query 71408: 0 elements: 
+---
+> Query 71408: 1 elements: 3; 
+71429c71428
+< Query 71425: 0 elements: 
+---
+> Query 71425: 1 elements: 3; 
+71458c71457
+< Query 71454: 0 elements: 
+---
+> Query 71454: 1 elements: 3; 
+71551c71550
+< Query 71547: 0 elements: 
+---
+> Query 71547: 1 elements: 3; 
+71599c71598
+< Query 71595: 0 elements: 
+---
+> Query 71595: 1 elements: 3; 
+71725c71724
+< Query 71721: 0 elements: 
+---
+> Query 71721: 1 elements: 3; 
+72049c72048
+< Query 72045: 0 elements: 
+---
+> Query 72045: 1 elements: 3; 
+72198c72197
+< Query 72194: 0 elements: 
+---
+> Query 72194: 1 elements: 3; 
+72374c72373
+< Query 72370: 0 elements: 
+---
+> Query 72370: 1 elements: 3; 
+72402c72401
+< Query 72398: 0 elements: 
+---
+> Query 72398: 1 elements: 3; 
+72442c72441
+< Query 72438: 0 elements: 
+---
+> Query 72438: 1 elements: 3; 
+72726c72725
+< Query 72722: 0 elements: 
+---
+> Query 72722: 1 elements: 3; 
+72913c72912
+< Query 72909: 0 elements: 
+---
+> Query 72909: 1 elements: 3; 
+73035c73034
+< Query 73031: 0 elements: 
+---
+> Query 73031: 1 elements: 3; 
+73260c73259
+< Query 73256: 0 elements: 
+---
+> Query 73256: 1 elements: 3; 
+73274c73273
+< Query 73270: 0 elements: 
+---
+> Query 73270: 1 elements: 3; 
+73286c73285
+< Query 73282: 0 elements: 
+---
+> Query 73282: 1 elements: 3; 
+73368c73367
+< Query 73364: 0 elements: 
+---
+> Query 73364: 1 elements: 3; 
+73401c73400
+< Query 73397: 0 elements: 
+---
+> Query 73397: 1 elements: 3; 
+73505c73504
+< Query 73501: 0 elements: 
+---
+> Query 73501: 1 elements: 3; 
+73710c73709
+< Query 73706: 0 elements: 
+---
+> Query 73706: 1 elements: 3; 
+73821c73820
+< Query 73817: 0 elements: 
+---
+> Query 73817: 1 elements: 3; 
+74501c74500
+< Query 74497: 0 elements: 
+---
+> Query 74497: 1 elements: 3; 
+74975c74974
+< Query 74971: 0 elements: 
+---
+> Query 74971: 1 elements: 3; 
+75473c75472
+< Query 75469: 0 elements: 
+---
+> Query 75469: 1 elements: 3; 
+75643c75642
+< Query 75639: 0 elements: 
+---
+> Query 75639: 1 elements: 3; 
+75833c75832
+< Query 75829: 0 elements: 
+---
+> Query 75829: 1 elements: 3; 
+75838c75837
+< Query 75834: 0 elements: 
+---
+> Query 75834: 1 elements: 3; 
+76048c76047
+< Query 76044: 0 elements: 
+---
+> Query 76044: 1 elements: 3; 
+76222c76221
+< Query 76218: 0 elements: 
+---
+> Query 76218: 1 elements: 3; 
+76446c76445
+< Query 76442: 0 elements: 
+---
+> Query 76442: 1 elements: 3; 
+76517c76516
+< Query 76513: 0 elements: 
+---
+> Query 76513: 1 elements: 3; 
+76558c76557
+< Query 76554: 0 elements: 
+---
+> Query 76554: 1 elements: 3; 
+76894c76893
+< Query 76890: 0 elements: 
+---
+> Query 76890: 1 elements: 3; 
+77341c77340
+< Query 77337: 0 elements: 
+---
+> Query 77337: 1 elements: 3; 
+77408c77407
+< Query 77404: 0 elements: 
+---
+> Query 77404: 1 elements: 3; 
+77598c77597
+< Query 77594: 0 elements: 
+---
+> Query 77594: 1 elements: 3; 
+77696,77698c77695,77697
+< Query 77692: 0 elements: 
+< Query 77693: 0 elements: 
+< Query 77694: 0 elements: 
+---
+> Query 77692: 1 elements: 3; 
+> Query 77693: 1 elements: 3; 
+> Query 77694: 1 elements: 3; 
+78013c78012
+< Query 78009: 0 elements: 
+---
+> Query 78009: 1 elements: 3; 
+78070c78069
+< Query 78066: 0 elements: 
+---
+> Query 78066: 1 elements: 3; 
+78261c78260
+< Query 78257: 0 elements: 
+---
+> Query 78257: 1 elements: 3; 
+78323c78322
+< Query 78319: 0 elements: 
+---
+> Query 78319: 1 elements: 3; 
+78572c78571
+< Query 78568: 0 elements: 
+---
+> Query 78568: 1 elements: 3; 
+78665c78664
+< Query 78661: 0 elements: 
+---
+> Query 78661: 1 elements: 3; 
+78830c78829
+< Query 78826: 0 elements: 
+---
+> Query 78826: 1 elements: 3; 
+78881c78880
+< Query 78877: 0 elements: 
+---
+> Query 78877: 1 elements: 3; 
+79117c79116
+< Query 79113: 0 elements: 
+---
+> Query 79113: 1 elements: 3; 
+79364c79363
+< Query 79360: 0 elements: 
+---
+> Query 79360: 1 elements: 3; 
+79423c79422
+< Query 79419: 0 elements: 
+---
+> Query 79419: 1 elements: 3; 
+79541c79540
+< Query 79537: 0 elements: 
+---
+> Query 79537: 1 elements: 3; 
+79594c79593
+< Query 79590: 0 elements: 
+---
+> Query 79590: 1 elements: 3; 
+79599c79598
+< Query 79595: 0 elements: 
+---
+> Query 79595: 1 elements: 3; 
+79731c79730
+< Query 79727: 0 elements: 
+---
+> Query 79727: 1 elements: 3; 
+79932c79931
+< Query 79928: 0 elements: 
+---
+> Query 79928: 1 elements: 3; 
+80320c80319
+< Query 80316: 0 elements: 
+---
+> Query 80316: 1 elements: 3; 
+80858c80857
+< Query 80854: 0 elements: 
+---
+> Query 80854: 1 elements: 3; 
+80907c80906
+< Query 80903: 0 elements: 
+---
+> Query 80903: 1 elements: 3; 
+80934c80933
+< Query 80930: 0 elements: 
+---
+> Query 80930: 1 elements: 3; 
+81030c81029
+< Query 81026: 0 elements: 
+---
+> Query 81026: 1 elements: 3; 
+81344c81343
+< Query 81340: 0 elements: 
+---
+> Query 81340: 1 elements: 3; 
+81358c81357
+< Query 81354: 0 elements: 
+---
+> Query 81354: 1 elements: 3; 
+81557c81556
+< Query 81553: 0 elements: 
+---
+> Query 81553: 1 elements: 3; 
+81799c81798
+< Query 81795: 0 elements: 
+---
+> Query 81795: 1 elements: 3; 
+81954c81953
+< Query 81950: 0 elements: 
+---
+> Query 81950: 1 elements: 3; 
+81992c81991
+< Query 81988: 0 elements: 
+---
+> Query 81988: 1 elements: 3; 
+82140c82139
+< Query 82136: 0 elements: 
+---
+> Query 82136: 1 elements: 3; 
+82276c82275
+< Query 82272: 0 elements: 
+---
+> Query 82272: 1 elements: 3; 
+82376c82375
+< Query 82372: 0 elements: 
+---
+> Query 82372: 1 elements: 3; 
+82808c82807
+< Query 82804: 0 elements: 
+---
+> Query 82804: 1 elements: 3; 
+82872c82871
+< Query 82868: 0 elements: 
+---
+> Query 82868: 1 elements: 3; 
+82893c82892
+< Query 82889: 0 elements: 
+---
+> Query 82889: 1 elements: 3; 
+82931c82930
+< Query 82927: 0 elements: 
+---
+> Query 82927: 1 elements: 3; 
+82974c82973
+< Query 82970: 0 elements: 
+---
+> Query 82970: 1 elements: 3; 
+83024c83023
+< Query 83020: 0 elements: 
+---
+> Query 83020: 1 elements: 3; 
+83194c83193
+< Query 83190: 0 elements: 
+---
+> Query 83190: 1 elements: 3; 
+83213c83212
+< Query 83209: 0 elements: 
+---
+> Query 83209: 1 elements: 3; 
+83225c83224
+< Query 83221: 0 elements: 
+---
+> Query 83221: 1 elements: 3; 
+83477c83476
+< Query 83473: 0 elements: 
+---
+> Query 83473: 1 elements: 3; 
+83526c83525
+< Query 83522: 0 elements: 
+---
+> Query 83522: 1 elements: 3; 
+83561c83560
+< Query 83557: 0 elements: 
+---
+> Query 83557: 1 elements: 3; 
+83996c83995
+< Query 83992: 0 elements: 
+---
+> Query 83992: 1 elements: 3; 
+84018c84017
+< Query 84014: 0 elements: 
+---
+> Query 84014: 1 elements: 3; 
+84150c84149
+< Query 84146: 0 elements: 
+---
+> Query 84146: 1 elements: 3; 
+84264c84263
+< Query 84260: 0 elements: 
+---
+> Query 84260: 1 elements: 3; 
+84300c84299
+< Query 84296: 0 elements: 
+---
+> Query 84296: 1 elements: 3; 
+84610c84609
+< Query 84606: 0 elements: 
+---
+> Query 84606: 1 elements: 3; 
+84642c84641
+< Query 84638: 0 elements: 
+---
+> Query 84638: 1 elements: 3; 
+84909c84908
+< Query 84905: 0 elements: 
+---
+> Query 84905: 1 elements: 3; 
+85500c85499
+< Query 85496: 0 elements: 
+---
+> Query 85496: 1 elements: 3; 
+85504c85503
+< Query 85500: 0 elements: 
+---
+> Query 85500: 1 elements: 3; 
+85518c85517
+< Query 85514: 0 elements: 
+---
+> Query 85514: 1 elements: 3; 
+85812c85811
+< Query 85808: 0 elements: 
+---
+> Query 85808: 1 elements: 3; 
+85850c85849
+< Query 85846: 0 elements: 
+---
+> Query 85846: 1 elements: 3; 
+86005c86004
+< Query 86001: 0 elements: 
+---
+> Query 86001: 1 elements: 3; 
+86296c86295
+< Query 86292: 0 elements: 
+---
+> Query 86292: 1 elements: 3; 
+86558c86557
+< Query 86554: 0 elements: 
+---
+> Query 86554: 1 elements: 3; 
+86827c86826
+< Query 86823: 0 elements: 
+---
+> Query 86823: 1 elements: 3; 
+86855c86854
+< Query 86851: 0 elements: 
+---
+> Query 86851: 1 elements: 3; 
+86867c86866
+< Query 86863: 0 elements: 
+---
+> Query 86863: 1 elements: 3; 
+87092c87091
+< Query 87088: 0 elements: 
+---
+> Query 87088: 1 elements: 3; 
+87205c87204
+< Query 87201: 0 elements: 
+---
+> Query 87201: 1 elements: 3; 
+87496c87495
+< Query 87492: 0 elements: 
+---
+> Query 87492: 1 elements: 3; 
+87584c87583
+< Query 87580: 0 elements: 
+---
+> Query 87580: 1 elements: 3; 
+87643c87642
+< Query 87639: 0 elements: 
+---
+> Query 87639: 1 elements: 3; 
+87856c87855
+< Query 87852: 0 elements: 
+---
+> Query 87852: 1 elements: 3; 
+88055c88054
+< Query 88051: 0 elements: 
+---
+> Query 88051: 1 elements: 3; 
+88432c88431
+< Query 88428: 0 elements: 
+---
+> Query 88428: 1 elements: 3; 
+88444c88443
+< Query 88440: 0 elements: 
+---
+> Query 88440: 1 elements: 3; 
+88942c88941
+< Query 88938: 0 elements: 
+---
+> Query 88938: 1 elements: 3; 
+89052c89051
+< Query 89048: 0 elements: 
+---
+> Query 89048: 1 elements: 3; 
+89148c89147
+< Query 89144: 0 elements: 
+---
+> Query 89144: 1 elements: 3; 
+89331c89330
+< Query 89327: 0 elements: 
+---
+> Query 89327: 1 elements: 3; 
+89579c89578
+< Query 89575: 0 elements: 
+---
+> Query 89575: 1 elements: 3; 
+89626c89625
+< Query 89622: 0 elements: 
+---
+> Query 89622: 1 elements: 3; 
+90013c90012
+< Query 90009: 0 elements: 
+---
+> Query 90009: 1 elements: 3; 
+90099c90098
+< Query 90095: 0 elements: 
+---
+> Query 90095: 1 elements: 3; 
+90280c90279
+< Query 90276: 0 elements: 
+---
+> Query 90276: 1 elements: 3; 
+90409c90408
+< Query 90405: 0 elements: 
+---
+> Query 90405: 1 elements: 3; 
+90481c90480
+< Query 90477: 0 elements: 
+---
+> Query 90477: 1 elements: 3; 
+90511c90510
+< Query 90507: 0 elements: 
+---
+> Query 90507: 1 elements: 3; 
+90611c90610
+< Query 90607: 0 elements: 
+---
+> Query 90607: 1 elements: 3; 
+90675c90674
+< Query 90671: 0 elements: 
+---
+> Query 90671: 1 elements: 3; 
+90705c90704
+< Query 90701: 0 elements: 
+---
+> Query 90701: 1 elements: 3; 
+90712c90711
+< Query 90708: 0 elements: 
+---
+> Query 90708: 1 elements: 3; 
+90891c90890
+< Query 90887: 0 elements: 
+---
+> Query 90887: 1 elements: 3; 
+91378c91377
+< Query 91374: 0 elements: 
+---
+> Query 91374: 1 elements: 3; 
+91401c91400
+< Query 91397: 0 elements: 
+---
+> Query 91397: 1 elements: 3; 
+91507c91506
+< Query 91503: 0 elements: 
+---
+> Query 91503: 1 elements: 3; 
+91580c91579
+< Query 91576: 0 elements: 
+---
+> Query 91576: 1 elements: 3; 
+91608c91607
+< Query 91604: 0 elements: 
+---
+> Query 91604: 1 elements: 3; 
+91674c91673
+< Query 91670: 0 elements: 
+---
+> Query 91670: 1 elements: 3; 
+91721c91720
+< Query 91717: 0 elements: 
+---
+> Query 91717: 1 elements: 3; 
+91887c91886
+< Query 91883: 0 elements: 
+---
+> Query 91883: 1 elements: 3; 
+91926c91925
+< Query 91922: 0 elements: 
+---
+> Query 91922: 1 elements: 3; 
+92083c92082
+< Query 92079: 0 elements: 
+---
+> Query 92079: 1 elements: 3; 
+92190c92189
+< Query 92186: 0 elements: 
+---
+> Query 92186: 1 elements: 3; 
+92258c92257
+< Query 92254: 0 elements: 
+---
+> Query 92254: 1 elements: 3; 
+92362c92361
+< Query 92358: 0 elements: 
+---
+> Query 92358: 1 elements: 3; 
+92555c92554
+< Query 92551: 0 elements: 
+---
+> Query 92551: 1 elements: 3; 
+93080c93079
+< Query 93076: 0 elements: 
+---
+> Query 93076: 1 elements: 3; 
+93114c93113
+< Query 93110: 0 elements: 
+---
+> Query 93110: 1 elements: 3; 
+93144c93143
+< Query 93140: 0 elements: 
+---
+> Query 93140: 1 elements: 3; 
+93426c93425
+< Query 93422: 0 elements: 
+---
+> Query 93422: 1 elements: 3; 
+93543c93542
+< Query 93539: 0 elements: 
+---
+> Query 93539: 1 elements: 3; 
+93935c93934
+< Query 93931: 0 elements: 
+---
+> Query 93931: 1 elements: 3; 
+93972c93971
+< Query 93968: 0 elements: 
+---
+> Query 93968: 1 elements: 3; 
+94244c94243
+< Query 94240: 0 elements: 
+---
+> Query 94240: 1 elements: 3; 
+94456c94455
+< Query 94452: 0 elements: 
+---
+> Query 94452: 1 elements: 3; 
+94559c94558
+< Query 94555: 0 elements: 
+---
+> Query 94555: 1 elements: 3; 
+94568c94567
+< Query 94564: 0 elements: 
+---
+> Query 94564: 1 elements: 3; 
+94596c94595
+< Query 94592: 0 elements: 
+---
+> Query 94592: 1 elements: 3; 
+94977c94976
+< Query 94973: 0 elements: 
+---
+> Query 94973: 1 elements: 3; 
+94984c94983
+< Query 94980: 0 elements: 
+---
+> Query 94980: 1 elements: 3; 
+95008c95007
+< Query 95004: 0 elements: 
+---
+> Query 95004: 1 elements: 3; 
+95021c95020
+< Query 95017: 0 elements: 
+---
+> Query 95017: 1 elements: 3; 
+95039c95038
+< Query 95035: 0 elements: 
+---
+> Query 95035: 1 elements: 3; 
+95449c95448
+< Query 95445: 0 elements: 
+---
+> Query 95445: 1 elements: 3; 
+95569c95568
+< Query 95565: 0 elements: 
+---
+> Query 95565: 1 elements: 3; 
+95855c95854
+< Query 95851: 0 elements: 
+---
+> Query 95851: 1 elements: 3; 
+95941c95940
+< Query 95937: 0 elements: 
+---
+> Query 95937: 1 elements: 3; 
+96339c96338
+< Query 96335: 0 elements: 
+---
+> Query 96335: 1 elements: 3; 
+96625c96624
+< Query 96621: 0 elements: 
+---
+> Query 96621: 1 elements: 3; 
+96711c96710
+< Query 96707: 0 elements: 
+---
+> Query 96707: 1 elements: 3; 
+96860c96859
+< Query 96856: 0 elements: 
+---
+> Query 96856: 1 elements: 3; 
+97012c97011
+< Query 97008: 0 elements: 
+---
+> Query 97008: 1 elements: 3; 
+97295c97294
+< Query 97291: 0 elements: 
+---
+> Query 97291: 1 elements: 3; 
+97351c97350
+< Query 97347: 0 elements: 
+---
+> Query 97347: 1 elements: 3; 
+97454c97453
+< Query 97450: 0 elements: 
+---
+> Query 97450: 1 elements: 3; 
+97481c97480
+< Query 97477: 0 elements: 
+---
+> Query 97477: 1 elements: 3; 
+97971c97970
+< Query 97967: 0 elements: 
+---
+> Query 97967: 1 elements: 3; 
+98277c98276
+< Query 98273: 0 elements: 
+---
+> Query 98273: 1 elements: 3; 
+98291c98290
+< Query 98287: 0 elements: 
+---
+> Query 98287: 1 elements: 3; 
+98321c98320
+< Query 98317: 0 elements: 
+---
+> Query 98317: 1 elements: 3; 
+98347c98346
+< Query 98343: 0 elements: 
+---
+> Query 98343: 1 elements: 3; 
+98535c98534
+< Query 98531: 0 elements: 
+---
+> Query 98531: 1 elements: 3; 
+98580c98579
+< Query 98576: 0 elements: 
+---
+> Query 98576: 1 elements: 3; 
+98688c98687
+< Query 98684: 0 elements: 
+---
+> Query 98684: 1 elements: 3; 
+98755c98754
+< Query 98751: 0 elements: 
+---
+> Query 98751: 1 elements: 3; 
+98760c98759
+< Query 98756: 0 elements: 
+---
+> Query 98756: 1 elements: 3; 
+98910c98909
+< Query 98906: 0 elements: 
+---
+> Query 98906: 1 elements: 3; 
+98996c98995
+< Query 98992: 0 elements: 
+---
+> Query 98992: 1 elements: 3; 
+99010c99009
+< Query 99006: 0 elements: 
+---
+> Query 99006: 1 elements: 3; 
+99127c99126
+< Query 99123: 0 elements: 
+---
+> Query 99123: 1 elements: 3; 
+99132c99131
+< Query 99128: 0 elements: 
+---
+> Query 99128: 1 elements: 3; 
+99419c99418
+< Query 99415: 0 elements: 
+---
+> Query 99415: 1 elements: 3; 
+99689c99688
+< Query 99685: 0 elements: 
+---
+> Query 99685: 1 elements: 3; 
+99715c99714
+< Query 99711: 0 elements: 
+---
+> Query 99711: 1 elements: 3; 
+99786c99785
+< Query 99782: 0 elements: 
+---
+> Query 99782: 1 elements: 3; 

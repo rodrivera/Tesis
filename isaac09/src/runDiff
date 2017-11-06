@@ -1,0 +1,5 @@
+rm ./wtResults.txt
+rm ./isaacResults.txt
+../../rtree/tests/RTreeTestBB ../../data/bboxes/eiel/tramosdered.txt IdX1Y1X2Y2 20 intersection ./testsResult.txt ../../data/bboxes/eiel/nucleos.txt IdX1Y1X2Y2 > wtResults.txt
+./main ../../data/bboxes/eiel/tramosdered.txt IdX1Y1X2Y2 ./testsResult.txt ../../data/bboxes/eiel/nucleos.txt IdX1Y1X2Y2 test NOCOMPACT > isaacResults.txt
+diff ./wtResults.txt ./isaacResults.txt

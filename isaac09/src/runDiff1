@@ -1,0 +1,5 @@
+rm ./wtResults.txt
+rm ./isaacResults.txt
+../../rtree/tests/RTreeTestBB ../../data/bboxes/tiger/ca.txt X1Y1X2Y2 30 intersection ./testsResult.txt ../../data/bboxes/tiger/aiannh.txt X1Y1X2Y2 > wtResults.txt
+./main ../../data/bboxes/tiger/ca.txt X1Y1X2Y2 ./testsResult.txt ../../data/bboxes/tiger/aiannh.txt X1Y1X2Y2 test NOCOMPACT > isaacResults.txt
+diff ./wtResults.txt ./isaacResults.txt
