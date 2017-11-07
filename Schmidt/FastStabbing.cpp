@@ -63,7 +63,6 @@ void FastStabbing::preprocessing() {
 		}
 		starting = l;
 	}
-
 	// sweep line
 	ListPure<interval*> L; // status list
 	ListIterator<interval*> it;
@@ -72,7 +71,6 @@ void FastStabbing::preprocessing() {
 	for (i=1; i<=bigN; ++i) {
 
 		//cout << "> i: " << i << endl;
-
 		// interval with starting point i
 		if (!eventlist[i].empty()) {
 			temp = eventlist[i].back();
@@ -82,7 +80,6 @@ void FastStabbing::preprocessing() {
 			}
 		}
 		OGDF_ASSERT(!L.empty() || eventlist[i].empty());
-
 		if (!L.empty()) {
 			// compute stop[i]
 			stop[i] = L.back();
@@ -90,7 +87,6 @@ void FastStabbing::preprocessing() {
 			// intervals with end points i
 
 			//cout << ">> start[i]  : " << stop[i]->l << ", " << stop[i]->r << endl;
-
 			for (it = eventlist[i].rbegin(); it.valid(); --it) {
 				temp = *it;
 				if (temp->pIt.pred().valid()) {
@@ -118,6 +114,11 @@ void FastStabbing::query(const int& ql, const int& qr, std::vector<interval*>& o
 	OGDF_ASSERT(ql >= 1 && ql <= bigN+1);
 	OGDF_ASSERT(qr >= ql && qr <= bigN+1);
 	output.clear();
+
+	if(! (ql >= 1 && ql < bigN+1 && qr >= ql && qr < bigN+1) ){
+		cout << "Out of bounds query." << endl;
+		return;
+	}
 
 	interval* i;
 	interval* temp;
