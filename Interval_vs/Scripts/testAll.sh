@@ -12,8 +12,7 @@ if [ ! -f "$queries" ]; then
     exit
 fi
 
-#declare -a SUFFIXES=("0" "10" "25" "50")
-declare -a SUFFIXES=("0")
+declare -a SUFFIXES=("0" "10" "25" "50")
 for N in "${SUFFIXES[@]}"
 do
 	intervals="$AUX""data/intervals/""$N"".txt"
@@ -30,10 +29,16 @@ do
 
 	echo ""; echo "Checking differences between Output files.."
 	if diff $outR $outI >/dev/null; then
-		printf "Passed\n"
+		if diff $outR $outS >/dev/null; then
+			printf "Passed\n"
+		else
+			printf "¡¡ Failed !!\n"
+			sdiff $outR $outS
+			exit
+		fi
 	else
 		printf "¡¡ Failed !!\n"
-		#sdiff $outFNR $outX
+		sdiff $outR $outI
 		exit
 	fi
 	echo "-------------------------------------------"; echo ""

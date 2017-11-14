@@ -107,17 +107,19 @@ void FastStabbing::preprocessing() {
 		//if (i>1) cout << ">> start_2[i]: " << stop2[i]->l << ", " << stop2[i]->r << endl;
 
 	}
+	/*
 						cout << " >>> preprocessing:" << endl;
 						for (int i = 0; i < stop.size(); ++i){
-							cout << stop[i];
+							cout << i << "("<< stop[i] << ")_";
 						}
 						cout << " >>> <<< " << endl;
+						*/
 }
 
 // stabbing query
 void FastStabbing::query(const int& ql, const int& qr, std::vector<interval*>& output, const bool onlySearch, long& numComparisons) {
 
-	cout << "### START QUERY WITH.. (" << ql << ", "<< qr << ")" << endl;
+	//cout << "### START QUERY WITH.. (" << ql << ", "<< qr << ")" << endl;
 
 	OGDF_ASSERT(ql >= 1 && ql <= bigN+1);
 	OGDF_ASSERT(qr >= ql && qr <= bigN+1);
@@ -136,19 +138,16 @@ void FastStabbing::query(const int& ql, const int& qr, std::vector<interval*>& o
 
 	interval* start_1Lq = stop[ql];
 	interval* start_2Rq = stop2[qr];
-
+/*
 						cout << " >>> in query:" << endl;
 						for (int i = 0; i < stop.size(); ++i){
-							cout << stop[i];
+							cout << stop[i] << "_";
 						}
 						cout << " >>> <<< " << endl;
 
-	cout << "### sizes:   " << stop.size() << " " << stop2.size() << endl;
-	cout << "### indexes: " << ql << " " << qr << endl;
-
-	cout << "### s1L > " << *start_1Lq;
-	cout << "### s2R > " << *start_2Rq;
-
+						cout << "### sizes:   " << stop.size() << " " << stop2.size() << endl;
+						cout << "### indexes: " << ql << " " << qr << endl;
+*/
 	if (start_1Lq == NULL){
 		if (start_2Rq == NULL){
 			return; // no stabbed intervals
@@ -195,7 +194,7 @@ void FastStabbing::query(const int& ql, const int& qr, std::vector<interval*>& o
 		}
 	}
 	OGDF_ASSERT(verify(output,ql) == 0);
-	cout << "### END QUERY WITH.. " << output.size() << " results." << endl;
+	//cout << "### END QUERY WITH.. " << output.size() << " results." << endl;
 }
 
 }
