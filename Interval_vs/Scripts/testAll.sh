@@ -12,17 +12,21 @@ if [ ! -f "$queries" ]; then
     exit
 fi
 
-declare -a SUFFIXES=("0" "10" "25" "50")
+#declare -a SUFFIXES=("0" "10" "25" "50")
+declare -a SUFFIXES=("0")
 for N in "${SUFFIXES[@]}"
 do
 	intervals="$AUX""data/intervals/""$N"".txt"
 	outR="$AUX""data/output/R/""$qFile""-""$N"".txt"
 	outI="$AUX""data/output/I/""$qFile""-""$N"".txt"
+	outS="$AUX""data/output/S/""$qFile""-""$N"".txt"
 	echo "----- Intervals size = ""$N"" and QueryWindow size = ""$qFile"".. -----"
-	#echo "Executing.. FNR with ""$N"" objects.."
+	#echo "Executing.. FNR-tree with ""$N"" objects.."
 	./"$AUX"rtest.out $intervals $queries $outR
-	#echo "Executing..   X with ""$N"" objects.."
+	#echo "Executing..        X with ""$N"" objects.."
 	./"$AUX"itest.out $intervals $queries $outI
+	#echo "Executing..  Schmidt with ""$N"" objects.."
+	./"$AUX"stest.out $intervals $queries $outS
 
 	echo ""; echo "Checking differences between Output files.."
 	if diff $outR $outI >/dev/null; then

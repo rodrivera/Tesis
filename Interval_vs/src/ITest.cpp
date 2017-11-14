@@ -49,11 +49,11 @@ void readQueries(const char *inFilename, const char *outFilename){
 
 		chrono::high_resolution_clock::time_point start = chrono::high_resolution_clock::now();
 		temporalTree->findOverlapping(temporalWindow->start,temporalWindow->stop,auxRes);
-		for(int i=0;i<auxRes.size();i++)
-		{
+		chrono::high_resolution_clock::time_point end = chrono::high_resolution_clock::now();		
+
+		for(int i=0;i<auxRes.size();i++){
 			resArray->insert(auxRes[i].value);
 		}
-		chrono::high_resolution_clock::time_point end = chrono::high_resolution_clock::now();
 
 		duration += chrono::duration_cast<chrono::microseconds>( end - start );	
 
@@ -101,7 +101,7 @@ int main(int argc, char const *argv[])
 	cout << " microseconds" << endl;
 
 	readQueries(queriesFile, outFile);
-	cout << endl;
+	//cout << endl;
 
 	return 0;
 }
