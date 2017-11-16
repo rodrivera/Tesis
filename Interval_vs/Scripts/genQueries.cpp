@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
 	int num = atoi(argv[1]);
 	float percT = atof(argv[2])/100;
 
-	if (percT < 0 || percT > 100){
+	if (percT < 0 || percT > 1){
 		cout << "percT must be a float number between 0 and 100 (inclusive)." << endl;
 		return -1;
 	}
