@@ -83,10 +83,11 @@ void FastStabbing::preprocessing() {
 		if (!L.empty()) {
 			// compute stop[i]
 			stop[i] = L.back();
-			stop2[i] = stop[i];
+			stop2[i] = (i<3 || stop[i]->l > stop2[i-1]->l)? stop[i] : stop2[i-1];
 			// intervals with end points i
 
-			//cout << ">> start[i]  : " << stop[i]->l << ", " << stop[i]->r << endl;
+			//cout << ">> start1[i]  : " << stop[i]->l << ", " << stop[i]->r << endl;
+			//cout << ">> start2[i]  : " << stop2[i]->l << ", " << stop2[i]->r << endl;
 			for (it = eventlist[i].rbegin(); it.valid(); --it) {
 				temp = *it;
 				if (temp->pIt.pred().valid()) {

@@ -30,8 +30,11 @@ public:
 
 static bool auxTemporalSearch(long id, void* arg)
 {
-	set<long>* resultArray = (set<long>*)arg;
-	resultArray->insert(id);
+	//set<long>* resultArray = (set<long>*)arg;
+	//resultArray->insert(id);
+	vector<long>* resultArray = (vector<long>*)arg;
+	resultArray->push_back(id);
+
 	return true;
 }
 
@@ -65,7 +68,7 @@ void readQueries(const char *inFilename, const char *outFilename){
 		istringstream iss(line);
 		double t1, t2;
 		if(!(iss >> t1 >> t2)) break;
-		set<long>* resArray = new set<long>;
+		vector<long>* resArray = new vector<long>;
 		Interval* temporalWindow = new Interval(t1,t2);
 
 		chrono::high_resolution_clock::time_point start = chrono::high_resolution_clock::now();
@@ -74,8 +77,10 @@ void readQueries(const char *inFilename, const char *outFilename){
 
 		duration += chrono::duration_cast<chrono::microseconds>( end - start );	
 
+		sort(resArray->begin(),resArray->end());
+
 		outfile << "Test #" << cont++ << endl;
-		for (set<long>::iterator it=resArray->begin(); it!=resArray->end(); ++it){
+		for (vector<long>::iterator it=resArray->begin(); it!=resArray->end(); ++it){
 			outfile << *it << " ";
 		}
 		outfile << endl << endl;

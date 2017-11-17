@@ -14,6 +14,10 @@ using namespace std;
 IntervalTree<long, double > *temporalTree;
 vector<Interval<long, double> > intervals;
 
+bool IntervalIdComparator(Interval<long, double> i, Interval<long, double> j) { 
+	return i.value < j.value; 
+}
+
 void readBrinkhoff(const char *filename){
 	map<long, pair<double, pair<int,int> > >Objects; // id -> (time, (x,y) )
 
@@ -49,17 +53,14 @@ void readQueries(const char *inFilename, const char *outFilename){
 
 		chrono::high_resolution_clock::time_point start = chrono::high_resolution_clock::now();
 		temporalTree->findOverlapping(temporalWindow->start,temporalWindow->stop,auxRes);
-		chrono::high_resolution_clock::time_point end = chrono::high_resolution_clock::now();		
+		chrono::high_resolution_clock::time_point end = chrono::high_resolution_clock::now();
+		duration += chrono::duration_cast<chrono::microseconds>( end - start );
 
-		for(int i=0;i<auxRes.size();i++){
-			resArray->insert(auxRes[i].value);
-		}
-
-		duration += chrono::duration_cast<chrono::microseconds>( end - start );	
+		sort(auxRes.begin(), auxRes.end(), IntervalIdComparator);
 
 		outfile << "Test #" << cont++ << endl;
-		for (set<long>::iterator it=resArray->begin(); it!=resArray->end(); ++it){
-			outfile << *it << " ";
+		for (vector<Interval<long, double> >::iterator it=auxRes.begin(); it!=auxRes.end(); ++it){
+			outfile << it->value << " ";
 		}
 		outfile << endl << endl;
 	}
