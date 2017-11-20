@@ -89,7 +89,7 @@ int main(int argc, char const *argv[])
 	std::chrono::high_resolution_clock::time_point end = std::chrono::high_resolution_clock::now();
 	cout << "> Schmidt indicators:" << endl;
 	cout << "   > MEMORY USAGE  = " << std::right << std::setw(10);
-	//cout << kk.size();
+	cout << stabbing.size();
 	cout << " Bytes" << endl;
 	cout << "   > Building time = " << std::right << std::setw(10);
 	cout << std::chrono::duration_cast<std::chrono::microseconds>( end - start ).count();

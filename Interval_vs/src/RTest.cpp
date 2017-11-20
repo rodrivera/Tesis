@@ -13,6 +13,15 @@ using namespace std;
 
 RTree<long, double, 1, float>* temporalTree;
 
+size_t size()
+{
+	size_t totalSize = sizeof(temporalTree) + sizeof(RTree<long, double, 1, float>);
+	size_t interval_size = 2 * sizeof(double) + sizeof(long);
+	totalSize += temporalTree->Count() * interval_size;
+
+	return totalSize;
+}
+
 class Interval
 {
 public:
@@ -119,7 +128,7 @@ int main(int argc, char const *argv[])
 
 	cout << "> R-Tree indicators:" << endl;
 	cout << "   > MEMORY USAGE  = " << right << std::setw(10);
-	//cout << kk.size();
+	cout << size();
 	cout << " Bytes" << endl;
 	cout << "   > Building time = " << right << setw(10);
 	cout << chrono::duration_cast<chrono::microseconds>( end - start2 ).count();

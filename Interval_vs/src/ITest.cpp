@@ -14,6 +14,13 @@ using namespace std;
 IntervalTree<long, double > *temporalTree;
 vector<Interval<long, double> > intervals;
 
+size_t size()
+{
+	size_t totalSize = sizeof(temporalTree) + sizeof(IntervalTree<long, double>) + intervals.size()*sizeof(intervals[0]);
+
+	return totalSize;
+}
+
 bool IntervalIdComparator(Interval<long, double> i, Interval<long, double> j) { 
 	return i.value < j.value; 
 }
@@ -98,7 +105,7 @@ int main(int argc, char const *argv[])
 
 	cout << "> I-Tree indicators:" << endl;
 	cout << "   > MEMORY USAGE  = " << right << setw(10);
-	//cout << kk.size();
+	cout << size();
 	cout << " Bytes" << endl;
 	cout << "   > Building time = " << right << setw(10);
 	cout << chrono::duration_cast<chrono::microseconds>( end - start2 ).count();
