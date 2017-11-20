@@ -118,6 +118,9 @@ int main(int argc, char const *argv[])
 	chrono::high_resolution_clock::time_point end = chrono::high_resolution_clock::now();
 
 	cout << "> R-Tree indicators:" << endl;
+	cout << "   > MEMORY USAGE  = " << right << std::setw(10);
+	//cout << kk.size();
+	cout << " Bytes" << endl;
 	cout << "   > Building time = " << right << setw(10);
 	cout << chrono::duration_cast<chrono::microseconds>( end - start2 ).count();
 	cout << " microseconds" << endl;
