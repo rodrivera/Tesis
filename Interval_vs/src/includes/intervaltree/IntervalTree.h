@@ -206,6 +206,15 @@ public:
 
     ~IntervalTree(void) = default;
 
+    size_t size() {
+        size_t totalSize = sizeof(*this) + sizeof(intervals[0])*intervals.size();
+        if(left)
+            totalSize += left->size();
+        if(right)
+            totalSize += right->size();
+        return totalSize;
+    }
+
 };
 
 #endif

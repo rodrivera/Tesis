@@ -139,7 +139,7 @@ void FastStabbing::query(const int& ql, const int& qr, std::vector<interval*>& o
 
 	interval* start_1Lq = stop[ql];
 	interval* start_2Rq = stop2[qr];
-/*
+ /*
 						cout << " >>> in query:" << endl;
 						for (int i = 0; i < stop.size(); ++i){
 							cout << stop[i] << "_";
@@ -148,7 +148,7 @@ void FastStabbing::query(const int& ql, const int& qr, std::vector<interval*>& o
 
 						cout << "### sizes:   " << stop.size() << " " << stop2.size() << endl;
 						cout << "### indexes: " << ql << " " << qr << endl;
-*/
+ */
 	if (start_1Lq == NULL){
 		if (start_2Rq == NULL){
 			return; // no stabbed intervals
@@ -200,8 +200,12 @@ void FastStabbing::query(const int& ql, const int& qr, std::vector<interval*>& o
 
 
 	size_t FastStabbing::size() {
-		size_t totalSize = sizeof(a[0])*a.size() + sizeof(stop[0])*stop.size() + 
-					sizeof(stop2)*stop2.size() +sizeof(eventlist[0])*eventlist.size();
+		size_t totalSize = 	sizeof(*this) + 
+												sizeof(a[0])*a.size() + 
+												sizeof(stop[0])*stop.size() + 
+												sizeof(stop2[0])*stop2.size() + 
+												sizeof(eventlist[0])*eventlist.size();
+
 		return totalSize;
 	}
 

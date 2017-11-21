@@ -105,7 +105,7 @@ int main(int argc, char const *argv[])
 
 	cout << "> I-Tree indicators:" << endl;
 	cout << "   > MEMORY USAGE  = " << right << setw(10);
-	cout << size();
+	cout << temporalTree->size();
 	cout << " Bytes" << endl;
 	cout << "   > Building time = " << right << setw(10);
 	cout << chrono::duration_cast<chrono::microseconds>( end - start2 ).count();
