@@ -120,6 +120,7 @@ int main(int argc, char const *argv[])
 	cout << "> R-Tree indicators:" << endl;
 	cout << "   > MEMORY USAGE  = " << right << std::setw(10);
 	cout << temporalTree->size();
+	//temporalTree->Count();
 	cout << " Bytes" << endl;
 	cout << "   > Building time = " << right << setw(10);
 	cout << chrono::duration_cast<chrono::microseconds>( end - start2 ).count();

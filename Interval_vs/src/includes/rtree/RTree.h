@@ -627,6 +627,7 @@ void RTREE_QUAL::CountRec(Node* a_node, int& a_count)
   else // A leaf node
   {
     a_count += a_node->m_count;
+    //std::cout << " > " << a_node->m_count << std::endl; 
   }
 }
 
