@@ -53,11 +53,11 @@ template<class DATATYPE, class ELEMTYPE, int NUMDIMS,
          class ELEMTYPEREAL = ELEMTYPE, int TMAXNODES = 8, int TMINNODES = TMAXNODES / 2>
 class RTree
 {
-protected: 
+  protected: 
 
   struct Node;  // Fwd decl.  Used by other internal structs and iterator
 
-public:
+  public:
 
   // These constant must be declared after Branch and before Node struct
   // Stuck up here for MSVC 6 compiler.  NSVC .NET 2003 is much happier.
@@ -69,7 +69,7 @@ public:
 
   typedef bool (*t_resultCallback)(DATATYPE, void*);
 
-public:
+  public:
 
   RTree();
   virtual ~RTree();
@@ -100,6 +100,8 @@ public:
 
   /// Count the data elements in this container.  This is slow as no internal counter is maintained.
   int Count();
+
+  int Count_NODES();
 
   /// Load tree contents from file
   bool Load(const char* a_fileName);
@@ -273,7 +275,7 @@ public:
   /// Get object at iterator position
   DATATYPE& GetAt(Iterator& a_it)                 { return *a_it; }
 
-protected:
+  protected:
 
   /// Minimal bounding rectangle (n-dimensional)
   struct Rect
@@ -359,12 +361,35 @@ protected:
   void RemoveAllRec(Node* a_node);
   void Reset();
   void CountRec(Node* a_node, int& a_count);
+  void CountRec_NODES(Node* a_node, int& a_count);
 
   bool SaveRec(Node* a_node, RTFileStream& a_stream);
   bool LoadRec(Node* a_node, RTFileStream& a_stream);
   
   Node* m_root;                                    ///< Root of tree
   ELEMTYPEREAL m_unitSphereVolume;                 ///< Unit sphere constant for required number of dimensions
+
+  /**************************
+
+  ***** XXXXXXXXXXXXXXX *****
+
+  **************************/
+public:
+
+  size_t size()
+  {
+    size_t totalSize = sizeof(*this);
+    totalSize += Count_NODES() * sizeof(Node);
+
+    return totalSize;
+  }
+
+  /**************************
+
+  ***** XXXXXXXXXXXXXXX *****
+
+  **************************/
+
 };
 
 
@@ -479,12 +504,12 @@ RTREE_QUAL::~RTree()
 RTREE_TEMPLATE
 void RTREE_QUAL::Insert(const ELEMTYPE a_min[NUMDIMS], const ELEMTYPE a_max[NUMDIMS], const DATATYPE& a_dataId)
 {
-#ifdef _DEBUG
+  #ifdef _DEBUG
   for(int index=0; index<NUMDIMS; ++index)
   {
     ASSERT(a_min[index] <= a_max[index]);
   }
-#endif //_DEBUG
+  #endif //_DEBUG
 
   Branch branch;
   branch.m_data = a_dataId;
@@ -503,12 +528,12 @@ void RTREE_QUAL::Insert(const ELEMTYPE a_min[NUMDIMS], const ELEMTYPE a_max[NUMD
 RTREE_TEMPLATE
 void RTREE_QUAL::Remove(const ELEMTYPE a_min[NUMDIMS], const ELEMTYPE a_max[NUMDIMS], const DATATYPE& a_dataId)
 {
-#ifdef _DEBUG
+  #ifdef _DEBUG
   for(int index=0; index<NUMDIMS; ++index)
   {
     ASSERT(a_min[index] <= a_max[index]);
   }
-#endif //_DEBUG
+  #endif //_DEBUG
 
   Rect rect;
   
@@ -525,12 +550,12 @@ void RTREE_QUAL::Remove(const ELEMTYPE a_min[NUMDIMS], const ELEMTYPE a_max[NUMD
 RTREE_TEMPLATE
 int RTREE_QUAL::Search(const ELEMTYPE a_min[NUMDIMS], const ELEMTYPE a_max[NUMDIMS], t_resultCallback a_resultCallback, void* a_context)
 {
-#ifdef _DEBUG
+  #ifdef _DEBUG
   for(int index=0; index<NUMDIMS; ++index)
   {
     ASSERT(a_min[index] <= a_max[index]);
   }
-#endif //_DEBUG
+  #endif //_DEBUG
 
   Rect rect;
   
@@ -558,6 +583,35 @@ int RTREE_QUAL::Count()
   return count;
 }
 
+
+      /************************
+      ************************/
+      RTREE_TEMPLATE
+      int RTREE_QUAL::Count_NODES()
+      {
+        int count = 0;
+        CountRec_NODES(m_root, count);
+        
+        return count;
+      }
+      RTREE_TEMPLATE
+      void RTREE_QUAL::CountRec_NODES(Node* a_node, int& a_count)
+      {
+        if(a_node->IsInternalNode())  // not a leaf node
+        {
+          a_count += 1;
+          for(int index = 0; index < a_node->m_count; ++index)
+          {
+            CountRec_NODES(a_node->m_branch[index].m_child, a_count);
+          }
+        }
+        else // A leaf node
+        {
+          a_count += 1;
+        }
+      }
+      /************************
+      ************************/
 
 
 RTREE_TEMPLATE
@@ -724,7 +778,6 @@ bool RTREE_QUAL::Save(RTFileStream& a_stream)
   return result;
 }
 
-
 RTREE_TEMPLATE
 bool RTREE_QUAL::SaveRec(Node* a_node, RTFileStream& a_stream)
 {
@@ -774,13 +827,13 @@ void RTREE_QUAL::RemoveAll()
 RTREE_TEMPLATE
 void RTREE_QUAL::Reset()
 {
-#ifdef RTREE_DONT_USE_MEMPOOLS
+  #ifdef RTREE_DONT_USE_MEMPOOLS
   // Delete all existing nodes
   RemoveAllRec(m_root);
-#else // RTREE_DONT_USE_MEMPOOLS
+  #else // RTREE_DONT_USE_MEMPOOLS
   // Just reset memory pools.  We are not using complex types
   // EXAMPLE
-#endif // RTREE_DONT_USE_MEMPOOLS
+  #endif // RTREE_DONT_USE_MEMPOOLS
 }
 
 
@@ -805,11 +858,11 @@ RTREE_TEMPLATE
 typename RTREE_QUAL::Node* RTREE_QUAL::AllocNode()
 {
   Node* newNode;
-#ifdef RTREE_DONT_USE_MEMPOOLS
+  #ifdef RTREE_DONT_USE_MEMPOOLS
   newNode = new Node;
-#else // RTREE_DONT_USE_MEMPOOLS
+  #else // RTREE_DONT_USE_MEMPOOLS
   // EXAMPLE
-#endif // RTREE_DONT_USE_MEMPOOLS
+  #endif // RTREE_DONT_USE_MEMPOOLS
   InitNode(newNode);
   return newNode;
 }
@@ -820,11 +873,11 @@ void RTREE_QUAL::FreeNode(Node* a_node)
 {
   ASSERT(a_node);
 
-#ifdef RTREE_DONT_USE_MEMPOOLS
+  #ifdef RTREE_DONT_USE_MEMPOOLS
   delete a_node;
-#else // RTREE_DONT_USE_MEMPOOLS
+  #else // RTREE_DONT_USE_MEMPOOLS
   // EXAMPLE
-#endif // RTREE_DONT_USE_MEMPOOLS
+  #endif // RTREE_DONT_USE_MEMPOOLS
 }
 
 
@@ -833,22 +886,22 @@ void RTREE_QUAL::FreeNode(Node* a_node)
 RTREE_TEMPLATE
 typename RTREE_QUAL::ListNode* RTREE_QUAL::AllocListNode()
 {
-#ifdef RTREE_DONT_USE_MEMPOOLS
+  #ifdef RTREE_DONT_USE_MEMPOOLS
   return new ListNode;
-#else // RTREE_DONT_USE_MEMPOOLS
+  #else // RTREE_DONT_USE_MEMPOOLS
   // EXAMPLE
-#endif // RTREE_DONT_USE_MEMPOOLS
+  #endif // RTREE_DONT_USE_MEMPOOLS
 }
 
 
 RTREE_TEMPLATE
 void RTREE_QUAL::FreeListNode(ListNode* a_listNode)
 {
-#ifdef RTREE_DONT_USE_MEMPOOLS
+  #ifdef RTREE_DONT_USE_MEMPOOLS
   delete a_listNode;
-#else // RTREE_DONT_USE_MEMPOOLS
+  #else // RTREE_DONT_USE_MEMPOOLS
   // EXAMPLE
-#endif // RTREE_DONT_USE_MEMPOOLS
+  #endif // RTREE_DONT_USE_MEMPOOLS
 }
 
 
@@ -944,12 +997,12 @@ bool RTREE_QUAL::InsertRect(const Branch& a_branch, Node** a_root, int a_level)
 {
   ASSERT(a_root);
   ASSERT(a_level >= 0 && a_level <= (*a_root)->m_level);
-#ifdef _DEBUG
+  #ifdef _DEBUG
   for(int index=0; index < NUMDIMS; ++index)
   {
     ASSERT(a_branch.m_rect.m_min[index] <= a_branch.m_rect.m_max[index]);
   }
-#endif //_DEBUG  
+  #endif //_DEBUG  
 
   Node* newNode;
 
@@ -1188,11 +1241,11 @@ ELEMTYPEREAL RTREE_QUAL::RectSphericalVolume(Rect* a_rect)
 RTREE_TEMPLATE
 ELEMTYPEREAL RTREE_QUAL::CalcRectVolume(Rect* a_rect)
 {
-#ifdef RTREE_USE_SPHERICAL_VOLUME
+  #ifdef RTREE_USE_SPHERICAL_VOLUME
   return RectSphericalVolume(a_rect); // Slower but helps certain merge cases
-#else // RTREE_USE_SPHERICAL_VOLUME
+  #else // RTREE_USE_SPHERICAL_VOLUME
   return RectVolume(a_rect); // Faster but can cause poor merges
-#endif // RTREE_USE_SPHERICAL_VOLUME  
+  #endif // RTREE_USE_SPHERICAL_VOLUME  
 }
 
 
@@ -1593,7 +1646,6 @@ bool RTREE_QUAL::Search(Node* a_node, Rect* a_rect, int& a_foundCount, t_resultC
 
   return true; // Continue searching
 }
-
 
 #undef RTREE_TEMPLATE
 #undef RTREE_QUAL
