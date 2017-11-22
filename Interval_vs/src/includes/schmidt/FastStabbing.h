@@ -127,6 +127,8 @@ namespace ogdf {
 		};
 		void query(const int& ql, const int& qr, std::vector<interval*>& output, const bool onlySearch, long& numComparisons);
 		size_t size();
+		int height();
+		int heightAUX(interval* curr);
 	};
 
 }

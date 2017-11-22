@@ -79,6 +79,8 @@ void FastStabbing::preprocessing() {
 				eventlist[i].popBack();
 			}
 		}
+
+		interval* DELETE_LAST;
 		OGDF_ASSERT(!L.empty() || eventlist[i].empty());
 		if (!L.empty()) {
 			// compute stop[i]
@@ -86,12 +88,16 @@ void FastStabbing::preprocessing() {
 			stop2[i] = (i<3 || stop[i]->l > stop2[i-1]->l)? stop[i] : stop2[i-1];
 			// intervals with end points i
 
-			//cout << ">> start1[i]  : " << stop[i]->l << ", " << stop[i]->r << endl;
-			//cout << ">> start2[i]  : " << stop2[i]->l << ", " << stop2[i]->r << endl;
+			if(stop[i] != DELETE_LAST)
+			DELETE_LAST = stop[i];
+
+			//cout << ">> start1["<<i<<"]  : " << stop[i]->l << ", " << stop[i]->r << endl;
+			//cout << ">> start2["<<i<<"]  : " << stop2[i]->l << ", " << stop2[i]->r << endl << "---" << endl;
 			for (it = eventlist[i].rbegin(); it.valid(); --it) {
 				temp = *it;
 				if (temp->pIt.pred().valid()) {
 					last = *temp->pIt.pred();
+					//cout << "> " << last->l << ", " << last->r << " --> " << temp->l << ", " << temp->r << endl; // PARENT -> CHILD
 				} else last = &dummy;
 				temp->parent = last;
 				temp->leftsibling = last->rightchild;
@@ -207,6 +213,16 @@ void FastStabbing::query(const int& ql, const int& qr, std::vector<interval*>& o
 												sizeof(eventlist[0])*eventlist.size();
 
 		return totalSize;
+	}
+
+	int FastStabbing::height() {
+		interval* curr = &dummy;
+		return heightAUX(curr) - 1;
+	}
+	int FastStabbing::heightAUX(interval* curr) {
+		if(!curr) return 0;
+		//cout << "*" << max( heightAUX(curr->leftsibling) , heightAUX(curr->rightchild) ) << endl;
+		return max( heightAUX(curr->leftsibling) , 1 + heightAUX(curr->rightchild) );
 	}
 
 }

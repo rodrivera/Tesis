@@ -87,6 +87,7 @@ int main(int argc, char const *argv[])
 	FastStabbing stabbing(a,n,n*4);
 
 	std::chrono::high_resolution_clock::time_point end = std::chrono::high_resolution_clock::now();
+	
 	cout << "> Schmidt indicators:" << endl;
 	cout << "   > MEMORY USAGE  = " << std::right << std::setw(10);
 	cout << stabbing.size();
@@ -94,7 +95,10 @@ int main(int argc, char const *argv[])
 	cout << "   > Building time = " << std::right << std::setw(10);
 	cout << std::chrono::duration_cast<std::chrono::microseconds>( end - start ).count();
 	cout << " microseconds" << endl;
-
+	cout << "   > Height        = " << std::right << std::setw(10);
+	cout << stabbing.height();
+	cout << endl;
+	
 	std::ifstream qinfile(queriesFile);
 	std::ofstream outfile(outFile);
 	std::vector<interval*> output;
@@ -102,7 +106,7 @@ int main(int argc, char const *argv[])
 	std::set<long> resArray;
 
 	std::chrono::microseconds duration(0);
-
+/*
 	while(getline(qinfile,line)){
 		std::istringstream qiss(line);
 		double l, r;
@@ -120,13 +124,13 @@ int main(int argc, char const *argv[])
 		std::chrono::high_resolution_clock::time_point qend = std::chrono::high_resolution_clock::now();
 		duration += std::chrono::duration_cast<std::chrono::microseconds>( qend - qstart );
 
-		/*
+		/
 		long outputSize = (int)output.size();
 		cout << ">>: N = " << outputSize << endl;
 		for (int i = 0; i < outputSize; ++i)
 			cout << " [" << output[i]->value << "=(" << vd[(output[i]->l)/2-1] << "," << vd[(output[i]->r)/2-1] << ")]";
 		cout << endl;	
-		*/
+		/
 
 		resArray.clear();
 		for(int i=0;i<output.size();i++){
@@ -145,6 +149,6 @@ int main(int argc, char const *argv[])
 	cout << duration.count();
 	cout << " microseconds" << endl;
 	outfile.close();
-
+*/
 	return 0;
 }
