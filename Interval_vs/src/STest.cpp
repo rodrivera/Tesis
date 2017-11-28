@@ -106,7 +106,7 @@ int main(int argc, char const *argv[])
 	std::set<long> resArray;
 
 	std::chrono::microseconds duration(0);
-/*
+
 	while(getline(qinfile,line)){
 		std::istringstream qiss(line);
 		double l, r;
@@ -124,13 +124,13 @@ int main(int argc, char const *argv[])
 		std::chrono::high_resolution_clock::time_point qend = std::chrono::high_resolution_clock::now();
 		duration += std::chrono::duration_cast<std::chrono::microseconds>( qend - qstart );
 
-		/
-		long outputSize = (int)output.size();
-		cout << ">>: N = " << outputSize << endl;
-		for (int i = 0; i < outputSize; ++i)
-			cout << " [" << output[i]->value << "=(" << vd[(output[i]->l)/2-1] << "," << vd[(output[i]->r)/2-1] << ")]";
-		cout << endl;	
-		/
+			/*
+			long outputSize = (int)output.size();
+			cout << ">>: N = " << outputSize << endl;
+			for (int i = 0; i < outputSize; ++i)
+				cout << " [" << output[i]->value << "=(" << vd[(output[i]->l)/2-1] << "," << vd[(output[i]->r)/2-1] << ")]" << endl;
+			cout << endl;	
+			*/
 
 		resArray.clear();
 		for(int i=0;i<output.size();i++){
@@ -149,6 +149,6 @@ int main(int argc, char const *argv[])
 	cout << duration.count();
 	cout << " microseconds" << endl;
 	outfile.close();
-*/
+
 	return 0;
 }

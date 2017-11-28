@@ -2,29 +2,20 @@
 AUX=""
 #AUX="../"
 
-prefix="$1"
-qFile="$2"
-intervals_dir="$AUX""data/intervals/""$prefix""/"
+qFile="$1"
 queries="$AUX""data/queries/""$qFile"".txt"
-
-if [ ! -d "$intervals_dir" ]; then
-	echo "Intervals directory not found!"
-	echo "Usage: testAll.sh intervals_cat search_window_SIZE"
-    echo "with size between 0 and 100 or rrr"
-    exit
-fi
 
 if [ ! -f "$queries" ]; then
     echo "Queries file not found!"
-    echo "Usage: testAll.sh intervals_cat search_window_SIZE"
-    echo "with size between 0 and 100 or rrr"
+    echo "Usage: testAll.sh search_window_SIZE"
+    echo "with size between 0 and 100"
     exit
 fi
 
-declare -a SUFFIXES=("5000" "10000" "25000" "50000" "100000")
+declare -a SUFFIXES=("0" "1" "10" "25" "50" "rrr")
 for N in "${SUFFIXES[@]}"
 do
-	intervals="$intervals_dir""$N"".txt"
+	intervals="$AUX""data/intervals/""$N"".txt"
 	outR="$AUX""data/output/R/""$qFile""-""$N"".txt"
 	outI="$AUX""data/output/I/""$qFile""-""$N"".txt"
 	outS="$AUX""data/output/S/""$qFile""-""$N"".txt"
