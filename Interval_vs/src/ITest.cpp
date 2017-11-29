@@ -83,7 +83,7 @@ int main(int argc, char const *argv[])
 
 	if(argc != 4)
 	{
-		cout << "Usage: ./xtest [trajectoriesFile] [queriesFile] [outfile]" << endl;
+		cout << "Usage: ./itest [trajectoriesFile] [queriesFile] [outfile]" << endl;
 		return -1;
 	}
 

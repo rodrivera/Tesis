@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
 
 	if(argc != 4)
 	{
-		cout << "Usage: ./fnrtest [intervalsFile] [queriesFile] [outFile]" << endl;
+		cout << "Usage: ./c1test [intervalsFile] [queriesFile] [outFile]" << endl;
 		return -1;
 	}
 
@@ -44,7 +44,7 @@ int main(int argc, char const *argv[])
 	int n = intervals.size();
 	//sort(intervals.begin(),intervals.end(),IntervalCompare);
 
-	Stabbing stabbing(intervals,100);
+	Stabbing stabbing(intervals,100,10000000);
 	std::chrono::high_resolution_clock::time_point end = std::chrono::high_resolution_clock::now();
 	
 
@@ -55,6 +55,9 @@ int main(int argc, char const *argv[])
 	cout << "   > Building time = " << std::right << std::setw(10);
 	cout << std::chrono::duration_cast<std::chrono::microseconds>( end - start ).count();
 	cout << " microseconds" << endl;
+	cout << "   > Height        = " << std::right << std::setw(10);
+	cout << stabbing.num_independent_sets();
+	cout << endl;
 
 	std::ifstream qinfile(queriesFile);
 	std::ofstream outfile(outFile);

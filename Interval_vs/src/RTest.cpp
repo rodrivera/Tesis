@@ -97,7 +97,7 @@ int main(int argc, char const *argv[])
 
 	if(argc != 4)
 	{
-		cout << "Usage: ./fnrtest [intervalsFile] [queriesFile] [outFile]" << endl;
+		cout << "Usage: ./rtest [intervalsFile] [queriesFile] [outFile]" << endl;
 		return -1;
 	}
 

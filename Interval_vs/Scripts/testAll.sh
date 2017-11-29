@@ -25,9 +25,10 @@ declare -a SUFFIXES=("5000" "10000" "25000" "50000" "100000")
 for N in "${SUFFIXES[@]}"
 do
 	intervals="$intervals_dir""$N"".txt"
-	outR="$AUX""data/output/R/""$qFile""-""$N"".txt"
-	outI="$AUX""data/output/I/""$qFile""-""$N"".txt"
-	outS="$AUX""data/output/S/""$qFile""-""$N"".txt"
+	outR="$AUX""data/output/R/""$qFile""-""$prefix""$N"".txt"
+	outI="$AUX""data/output/I/""$qFile""-""$prefix""$N"".txt"
+	outS="$AUX""data/output/S/""$qFile""-""$prefix""$N"".txt"
+	outC1="$AUX""data/output/C1/""$qFile""-""$prefix""$N"".txt"
 	echo "----- Intervals size = ""$N"" and QueryWindow size = ""$qFile"".. -----"
 	#echo "Executing.. FNR-tree with ""$N"" objects.."
 	./"$AUX"rtest.out $intervals $queries $outR
@@ -35,11 +36,19 @@ do
 	./"$AUX"itest.out $intervals $queries $outI
 	#echo "Executing..  Schmidt with ""$N"" objects.."
 	./"$AUX"stest.out $intervals $queries $outS
+	#echo "Executing..  Compressed I with ""$N"" objects.."
+	./"$AUX"c1test.out $intervals $queries $outC1
 
 	echo ""; echo "Checking differences between Output files.."
 	if diff $outR $outI >/dev/null; then
 		if diff $outR $outS >/dev/null; then
-			printf "Passed\n"
+			if diff $outR $outC1 >/dev/null; then
+				printf "Passed\n"
+			else
+				printf "¡¡ Failed (C1) !!\n"
+				sdiff $outR $outC1
+				exit
+			fi
 		else
 			printf "¡¡ Failed (Schmidt) !!\n"
 			sdiff $outR $outS
