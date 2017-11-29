@@ -88,6 +88,10 @@ int main(int argc, char const *argv[])
 
 	std::chrono::high_resolution_clock::time_point end = std::chrono::high_resolution_clock::now();
 	
+
+									//stabbing.print();
+
+
 	cout << "> Schmidt indicators:" << endl;
 	cout << "   > MEMORY USAGE  = " << std::right << std::setw(10);
 	cout << stabbing.size();

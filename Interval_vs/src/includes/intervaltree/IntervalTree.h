@@ -207,7 +207,8 @@ public:
     ~IntervalTree(void) = default;
 
     size_t size() {
-        size_t totalSize = sizeof(*this) + sizeof(intervals[0])*intervals.size();
+        //size_t totalSize = sizeof(*this) + (sizeof(intervals[0]))*intervals.size();
+        size_t totalSize = sizeof(*this) + (sizeof(intervals[0])-2*sizeof(K))*intervals.size(); // IGNORE ids
         if(left)
             totalSize += left->size();
         if(right)

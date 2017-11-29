@@ -129,6 +129,8 @@ namespace ogdf {
 		size_t size();
 		int height();
 		int heightAUX(interval* curr);
+		void print();
+		void printAUX(interval* curr, int level);
 	};
 
 }

@@ -225,4 +225,25 @@ void FastStabbing::query(const int& ql, const int& qr, std::vector<interval*>& o
 		return max( heightAUX(curr->leftsibling) , 1 + heightAUX(curr->rightchild) );
 	}
 
+	void FastStabbing::print() {
+		interval* curr = &dummy;
+		cout << "(R)->";
+		printAUX(curr->rightchild,1);
+	}
+	void FastStabbing::printAUX(interval* curr, int level) {
+		if(!curr){ 
+			cout << "(L)";
+			return;
+		}
+		cout << "("<<level<<")";
+		//cout << "*" << max( heightAUX(curr->leftsibling) , heightAUX(curr->rightchild) ) << endl;
+		cout << "->";
+		printAUX(curr->rightchild,level+1);
+		cout << endl;
+		for (int i = 0; i < level; ++i) cout << "     ";
+		cout << " |" << endl;
+		for (int i = 0; i < level; ++i) cout << "     ";
+		printAUX(curr->leftsibling,level);
+	}
+
 }

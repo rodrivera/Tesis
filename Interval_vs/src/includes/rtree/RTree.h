@@ -379,7 +379,8 @@ public:
   size_t size()
   {
     size_t totalSize = sizeof(*this);
-    totalSize += Count_NODES() * sizeof(Node);
+    //totalSize += Count_NODES() * sizeof(Node);
+    totalSize += Count_NODES() * (sizeof(Node)-2 * MAXNODES * sizeof(DATATYPE)); // IGNORE IDS
 
     return totalSize;
   }

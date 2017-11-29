@@ -73,8 +73,8 @@ public:
 				long last_l = independent_sets[s].back().l * discr_multiplier;
 				long last_r = independent_sets[s].back().r * discr_multiplier;
 
-				if (I_r > last_r && I_l != last_l ||
-					  I_r == last_r && I_l == last_l ) {
+				if (I_r  > last_r && I_l != last_l || 
+						I_r == last_r && I_l == last_l ) {
 					if (independent_sets[s].back().r > max_is_val) {
 						max_is_val = independent_sets[s].back().r;
 						max_is_i = s;
@@ -98,6 +98,8 @@ public:
 								cout << endl <<"~~~~~~~~~~" << endl;
 							}
 							*/
+							
+							
 
     independent_sets_number = independent_sets.size();
 
@@ -236,7 +238,7 @@ public:
 			totalSize += size_in_bytes(*ss_stop[is]);
 			Dc("    > ss_stop :" << size_in_bytes(*ss_stop[is]));
 
-			totalSize += v_ids[is].size()*sizeof(v_ids[0][0]);
+			//totalSize += v_ids[is].size()*sizeof(v_ids[0][0]);
 			Dc("    > IDS :" << v_ids[is].size()*sizeof(v_ids[is][0]));
 			Dc("        > num :" << v_ids[is].size());
 			Dc("        > size :" << sizeof(v_ids[is][0][0]));
