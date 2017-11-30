@@ -186,32 +186,27 @@ public:
 	  for (int iset = 0; iset < independent_sets_number; ++iset) { // FOREACH INDEPENDENT SET
 	  	Dq("  >iset "<<iset<<":");
 
-		  long i_n = (*rs_start[iset])( q_r + 1 ); // query is exclusive
+		  long i_n_last = (*rs_start[iset])( q_r + 1 );
+		  long i_n_first = (*rs_stop[iset])( q_l + 1 );
 
 		  Dq("    > start with:");
-		  Dq("      > i_n "<<i_n);
+		  Dq("      > i_n_first "<<i_n_first);
+		  Dq("      > i_n_last "<<i_n_last);
 
-		  if (i_n < 1) {
-		  	continue;
+		  if (i_n_first < 1) {
+		  	i_n_first++;
 		  }
-		  long i_r = (*ss_stop[iset])( i_n );
-		  
-		  long i_l = (*ss_start[iset])( i_n ); if ( q_r < i_l ) i_n--; // ???
 
-		  Dq("      > i_l "<<i_l);
+		  long i_r = (*ss_stop[iset])( i_n_first ); if (i_r < q_l) i_n_first++;
+
+		  Dq("      > i_l "<<(*ss_start[iset])( i_n_first ));
 		  Dq("      > i_r "<<i_r);
 
-		  while( q_l <= i_r ) {
-	  		
-	      Dq("    >"<<i_n<<" = ("<<(double)(*ss_start[iset])(i_n)/discr_multiplier<<", "<<(double)i_r/discr_multiplier<<") : "<<v_ids[iset][i_n-1]);
-	      
-	      for (int i = 0; i < v_ids[iset][i_n-1].size(); ++i) {
-	      	output.push_back( v_ids[iset][i_n-1][i] );
+		  for (long i_i = i_n_first; i_i <= i_n_last; i_i++) {
+		  	Dq("    >"<<i_i<<" = ("<<(double)(*ss_start[iset])(i_i)/discr_multiplier<<", "<<(double)(*ss_stop[iset])(i_i)/discr_multiplier<<") : "<<v_ids[iset][i_i-1]);
+		  	for (int i = 0; i < v_ids[iset][i_i-1].size(); ++i) {
+	      	output.push_back( v_ids[iset][i_i-1][i] );
 	      }
-
-	      i_n--;
-	      if(i_n < 1) break;
-	      i_r = (*ss_stop[iset])( i_n );
 		  }
 		
 		} // [FIN] FOREACH INDEPENDENT SET

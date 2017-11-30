@@ -207,7 +207,7 @@ void FastStabbing::query(const int& ql, const int& qr, std::vector<interval*>& o
 
 	size_t FastStabbing::size() {
 		size_t totalSize = 	sizeof(*this) + 
-												sizeof(a[0])*a.size() + 
+												(sizeof(a[0])-2*sizeof(long))*a.size() + 
 												sizeof(stop[0])*stop.size() + 
 												sizeof(stop2[0])*stop2.size() + 
 												sizeof(eventlist[0])*eventlist.size();
