@@ -1,1 +1,0 @@
-g++ -std=c++11 -I src/includes/schmidt/OGDF/ -L src/includes/schmidt/OGDF/_release/ src/includes/schmidt/FastStabbing.cpp src/TEST.cpp -lOGDF -o TEST.out
