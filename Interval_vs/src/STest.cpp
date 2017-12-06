@@ -99,9 +99,8 @@ int main(int argc, char const *argv[])
 	cout << "   > Building time = " << std::right << std::setw(10);
 	cout << std::chrono::duration_cast<std::chrono::microseconds>( end - start ).count();
 	cout << " microseconds" << endl;
-	cout << "   > Height        = " << std::right << std::setw(10);
-	cout << stabbing.height();
-	cout << endl;
+	//cout << "   > Height        = " << std::right << std::setw(10);
+	//cout << stabbing.height() << endl;
 	
 	std::ifstream qinfile(queriesFile);
 	std::ofstream outfile(outFile);
