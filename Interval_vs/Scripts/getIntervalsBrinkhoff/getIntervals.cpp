@@ -60,11 +60,11 @@ void readBrinkhoff(const char *filename){
 			double delY = (currY > y0)? currY-y0 : y0-currY; 
 			double dist = sqrt(delX*delX + delY*delY);
 
-			cout << round(round(dist)/10) << endl;
-/*
-				if ( round(round(dist)/100) == 6)
+//			cout << round(round(dist)/20) << endl;
+
+				if ( round(round(dist)/20) == 32)
 					cout << t0 << " " << time << endl;
-*/
+
 			Objects[id] = make_pair(time,make_pair(currX,currY));
 		}
 	}
