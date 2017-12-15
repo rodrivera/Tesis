@@ -4,6 +4,7 @@
 #include <vector>
 #include <set>
 #include <algorithm>
+#include <cstdio>
 
 #include <fstream>
 #include <sstream>
@@ -14,15 +15,19 @@
 int main(int argc, char const *argv[])
 {
 
-	if(argc != 4)
+	if(argc < 4 || argc > 5)
 	{
-		cout << "Usage: ./c1test [intervalsFile] [queriesFile] [outFile]" << endl;
+		cout << "Usage: ./c1test [intervalsFile] [queriesFile] [outFile] (precision)" << endl;
 		return -1;
 	}
 
 	const char* intervalsFile 	= argv[1];
 	const char* queriesFile 		= argv[2];
 	const char* outFile 				= argv[3];
+
+	int precision = 10000000;
+	if (argc > 4)
+		precision = atoi(argv[4]);
 
 	std::chrono::high_resolution_clock::time_point start = std::chrono::high_resolution_clock::now();
 
@@ -42,7 +47,7 @@ int main(int argc, char const *argv[])
 	int n = intervals.size();
 	//sort(intervals.begin(),intervals.end(),IntervalCompare);
 
-	Stabbing stabbing(intervals,100,10000000);
+	Stabbing stabbing(intervals,100,precision);
 	std::chrono::high_resolution_clock::time_point end = std::chrono::high_resolution_clock::now();
 	
 

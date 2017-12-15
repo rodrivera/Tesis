@@ -28,7 +28,7 @@ do
 	#echo "Executing..  Schmidt with ""$N"" objects.."
 	./"$AUX"stest.out $intervals $queries $outS
 	#echo "Executing..  Compressed I with ""$N"" objects.."
-	./"$AUX"c1test.out $intervals $queries $outC1
+	./"$AUX"c1test.out $intervals $queries $outC1 $((10**$N))
 
 	echo ""; echo "Checking differences between Output files.."
 	if diff $outR $outI >/dev/null; then
