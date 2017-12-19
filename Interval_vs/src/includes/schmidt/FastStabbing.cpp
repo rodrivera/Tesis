@@ -124,15 +124,20 @@ void FastStabbing::preprocessing() {
 }
 
 // stabbing query
-void FastStabbing::query(const int& ql, const int& qr, std::vector<interval*>& output, const bool onlySearch, long& numComparisons) {
+void FastStabbing::query(const int& _ql, const int& _qr, std::vector<interval*>& output, const bool onlySearch, long& numComparisons) {
 
 	//cout << "### START QUERY WITH.. (" << ql << ", "<< qr << ")" << endl;
 
-	OGDF_ASSERT(ql >= 1 && ql <= bigN+1);
-	OGDF_ASSERT(qr >= ql && qr <= bigN+1);
+	//OGDF_ASSERT(ql >= 1 && ql <= bigN+1);
+	//OGDF_ASSERT(qr >= ql && qr <= bigN+1);
 	output.clear();
 
-	if(! (ql >= 1 && ql < bigN+1 && qr >= ql && qr < bigN+1) ){
+	int ql = _ql;
+	int qr = _qr;
+	if(ql == bigN+1) ql--;
+	if(qr == bigN+1) qr--;
+
+	if(! (ql >= 1 && ql <= qr && qr < bigN+1) ){
 		cout << "> q = [ " << ql << " , " << qr << " ]" << endl;
 		cout << "> D = [ " << 1 << " , " << bigN << " ]" << endl;
 		cout << "Out of bounds query." << endl;
@@ -142,6 +147,12 @@ void FastStabbing::query(const int& ql, const int& qr, std::vector<interval*>& o
 	interval* i;
 	interval* temp;
 	ListPure<interval*> process;
+
+
+	if(ql==bigN) ql--;
+	if(qr==bigN) qr--;
+
+
 
 	interval* start_1Lq = stop[ql];
 	interval* start_2Rq = stop2[qr];

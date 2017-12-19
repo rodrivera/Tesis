@@ -178,8 +178,8 @@ public:
 			return;
 		}
 
-		long q_l = ql * discr_multiplier; 
-	  long q_r = qr * discr_multiplier;
+	  long q_l = static_cast<long>(round(ql * discr_multiplier));
+	  long q_r = static_cast<long>(round(qr * discr_multiplier));
 
 	  Dq("discretized: "<<q_l<<" , "<<q_r);
 
