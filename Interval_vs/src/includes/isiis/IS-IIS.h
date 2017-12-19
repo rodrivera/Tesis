@@ -130,8 +130,8 @@ public:
 			}
 			Dc("  > ids created");
 
-			bit_vector start = bit_vector(domain_size*discr_multiplier, false);
-		  bit_vector stop  = bit_vector(domain_size*discr_multiplier, false);
+			bit_vector start = bit_vector(domain_size*discr_multiplier + 1, false);
+		  bit_vector stop  = bit_vector(domain_size*discr_multiplier + 1, false);
 		  Dc("  > bvs created");
 
 		  for (int i=0; i < intervals.size(); ++i) {
@@ -171,7 +171,7 @@ public:
 
 		Dq("Query "<<ql<<" , "<<qr);
 
-		if(! (ql >= 0 && ql <= domain_size && qr >= ql && qr <= domain_size) ){
+		if(! (0 <= ql && ql <= qr && qr <= domain_size) ){
 			cout << "> q = [ " << ql << " , " << qr << " ]" << endl;
 			cout << "> D = [ " << 1 << " , " << domain_size << " ]" << endl;
 			cout << "Out of bounds query." << endl;
