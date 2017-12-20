@@ -68,10 +68,10 @@ public:
 			long max_is_i = -1;
 			for (int s = 0; s < independent_sets.size(); ++s) {
 
-				long I_l = intervals[i].l * discr_multiplier;
-				long I_r = intervals[i].r * discr_multiplier;
-				long last_l = independent_sets[s].back().l * discr_multiplier;
-				long last_r = independent_sets[s].back().r * discr_multiplier;
+				long I_l = round(intervals[i].l * discr_multiplier);
+				long I_r = round(intervals[i].r * discr_multiplier);
+				long last_l = round(independent_sets[s].back().l * discr_multiplier);
+				long last_r = round(independent_sets[s].back().r * discr_multiplier);
 
 				if (I_r  > last_r && I_l != last_l || 
 						I_r == last_r && I_l == last_l ) {
@@ -135,8 +135,8 @@ public:
 		  Dc("  > bvs created");
 
 		  for (int i=0; i < intervals.size(); ++i) {
-				start[ floor(intervals[i].l * discr_multiplier) ] = true;
-				stop[ floor(intervals[i].r * discr_multiplier) ] = true;
+				start[ round(intervals[i].l * discr_multiplier) ] = true;
+				stop[ round(intervals[i].r * discr_multiplier) ] = true;
 			}
 			Dc("  > start/stop created");
 
@@ -178,8 +178,8 @@ public:
 			return;
 		}
 
-	  long q_l = static_cast<long>(round(ql * discr_multiplier));
-	  long q_r = static_cast<long>(round(qr * discr_multiplier));
+	  long q_l = round(ql * discr_multiplier);
+	  long q_r = round(qr * discr_multiplier);
 
 	  Dq("discretized: "<<q_l<<" , "<<q_r);
 
