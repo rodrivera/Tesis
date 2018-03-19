@@ -40,8 +40,7 @@ int main(int argc, char const *argv[])
 		std::istringstream iss(line);
 		double t1, t2;
 		if(!(iss >> t1 >> t2)) break;
-		interval in;
-		in.l = t1; in.r = t2; in.value = in_id++;
+		interval in(t1,t2,in_id++);
 		intervals.push_back(in);
 	}
 	int n = intervals.size();

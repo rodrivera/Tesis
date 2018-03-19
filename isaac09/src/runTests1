@@ -1,1 +1,0 @@
-./main ../../data/bboxes/eiel/tramosdered.txt IdX1Y1X2Y2 ./testsResult.txt ../../data/bboxes/eiel/nucleos.txt IdX1Y1X2Y2 test > isaacResults.txt

@@ -1,1 +1,0 @@
-./main ../../data/bboxes/examples/example1.txt IdX1Y1X2Y2 ./testsResult.txt ../../data/bboxes/examples/example1q.txt IdX1Y1X2Y2 test
